@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>Fantastic Four</title>
+   <plot>Bei einem Weltraumausflug wurden Reed Richards, Ben Grimm, Susan Storm und Johnny Storm von kosmischer Strahlung bombardiert. Dadurch bekamen sie außergewöhnliche Superkräfte, die sie für das Gute nutzen wollten und wurden die Fantastic Four. Victor von Doom war ebenfalls beim Unfall anwesend, jedoch benutzte er seine Kräfte für das Böse.</plot>
+   <mpaa>FSK-6</mpaa>
+   <id>S0054</id>
+   <uniqueid type="mbdb">S0054</uniqueid>
+   <namedseason number="1">Staffel 1</namedseason>
+   <premiered>1994-01-01</premiered>
+</tvshow>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>Fallout</title>
+   <plot>Basierend auf der größten Videospiel-Reihe aller Zeiten, erzählt „Fallout“ die Geschichte von Besitzenden und Besitzlosen in einer Welt, in der es fast nichts mehr zu besitzen gibt. 200 Jahre nach der Apokalypse ist eine friedliche Bewohnerin eines gemütlichen Atombunkers gezwungen, an die Oberfläche zurückzukehren... und ist erschüttert über das Ödland, das sie dort erwartet.</plot>
+   <mpaa>FSK-16</mpaa>
+   <id>S0084</id>
+   <uniqueid type="mbdb">S0084</uniqueid>
+   <namedseason number="1">Staffel 1</namedseason>
+   <namedseason number="2">Staffel 2</namedseason>
+   <premiered>2024-01-01</premiered>
+</tvshow>

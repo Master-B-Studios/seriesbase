@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>Friends</title>
+   <plot>Ross, Rachel, Monica, Chandler und Joey sind beste Freunde. Ob bei regelmäßigen Treffen im Café Central Perk oder in der WG mit den lilafarbenen Wänden, gemeinsam wird getratscht, gestritten und gelacht. Dabei ergeben sich im Laufe der Zeit immer wieder auch amouröse Verbindungen in und außerhalb der Gruppe, die zu Konflikten, aber auch zu herrlich romantischen Momenten führen.</plot>
+   <mpaa>FSK-6</mpaa>
+   <id>S0020</id>
+   <uniqueid type="mbdb">S0020</uniqueid>
+   <namedseason number="1">Staffel 1</namedseason>
+   <namedseason number="2">Staffel 2</namedseason>
+   <namedseason number="3">Staffel 3</namedseason>
+   <namedseason number="4">Staffel 4</namedseason>
+   <namedseason number="5">Staffel 5</namedseason>
+   <namedseason number="6">Staffel 6</namedseason>
+   <namedseason number="7">Staffel 7</namedseason>
+   <namedseason number="8">Staffel 8</namedseason>
+   <namedseason number="9">Staffel 9</namedseason>
+   <namedseason number="10">Staffel 10</namedseason>
+   <premiered>1994-01-01</premiered>
+</tvshow>

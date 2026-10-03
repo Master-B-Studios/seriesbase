@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>Futurama</title>
+   <plot>Silvester 1999, Mitternacht: Der New Yorker Pizzabote Philip J. Fry wird - scheinbar versehentlich - in einen kryostatischen Tiefschlaf versetzt, aus dem er eintausend Jahre später an Silvester 2999 wieder erwacht. Bei Planet Express, einem interplanetaren Lieferdienst, der von seinem entfernten Nachfahren Professor Farnsworth geleitet wird, nimmt er eine Anstellung an. In seinen Mitarbeitern findet er Freunde. Zusammen erleben sie skurrile Abenteuer, die etwa durch Lieferaufträge zu entfernten Planeten oder Erfindungen des Professors ausgelöst werden.</plot>
+   <mpaa>FSK-12</mpaa>
+   <id>S0004</id>
+   <uniqueid type="mbdb">S0004</uniqueid>
+   <namedseason number="1">Staffel 1</namedseason>
+   <namedseason number="2">Staffel 2</namedseason>
+   <namedseason number="3">Staffel 3</namedseason>
+   <namedseason number="4">Staffel 4</namedseason>
+   <namedseason number="5">Staffel 5</namedseason>
+   <namedseason number="6">Staffel 6</namedseason>
+   <namedseason number="7">Staffel 7</namedseason>
+   <namedseason number="8">Staffel 8</namedseason>
+   <premiered>1999-01-01</premiered>
+</tvshow>
