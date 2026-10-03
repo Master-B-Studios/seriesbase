@@ -33,6 +33,17 @@
         "poster": "series/0003/poster.jpg"
     },
     {
+        "id": "S0004",
+        "title": "Futurama",
+        "plot": "Silvester 1999, Mitternacht: Der New Yorker Pizzabote Philip J. Fry wird - scheinbar versehentlich - in einen kryostatischen Tiefschlaf versetzt, aus dem er eintausend Jahre später an Silvester 2999 wieder erwacht. Bei Planet Express, einem interplanetaren Lieferdienst, der von seinem entfernten Nachfahren Professor Farnsworth geleitet wird, nimmt er eine Anstellung an. In seinen Mitarbeitern findet er Freunde. Zusammen erleben sie skurrile Abenteuer, die etwa durch Lieferaufträge zu entfernten Planeten oder Erfindungen des Professors ausgelöst werden.",
+        "mpaa": "FSK-12",
+        "year": "1999",
+        "seasons": 8,
+        "folder": "0004",
+        "filename": "tvshow",
+        "poster": "series/0004/poster.jpg"
+    },
+    {
         "id": "S0011",
         "title": "Avatar - Der Herr Der Elemente",
         "plot": "Im Mittelpunkt von „Avatar: Der Herr der Elemente“ steht der zwölfjährige Aang, der in einer von den Herren des Feuers beherrschten asiatischen Fantasy-Welt lebt. Aang ist nicht nur der letzte Herrscher über die Luft, sondern auch der Avatar, der Herr über alle Elemente. Er ist derjenige, der über die Form von Wasser, Erde, Luft und Feuer bestimmt. Doch der Avatar war 100 Jahre lang in einem Gletscher am Südpol eingefroren, und während dieser Zeit sind die Herrscher des Feuers ihrem Ziel der totalen Weltherrschaft immer näher gekommen. Erst als Aang von Katara, der letzten Gebieterin des Wassers, und deren Bruder Sokka aus dem ewigen Eis befreit wird, hat er eine Chance, seine Mission zu erfüllen: Er muss die aus den Fugen geratene Welt retten und die Balance der Elemente wiederherstellen. Eine große Herausforderung für einen Zwölfjährigen - schließlich muss er noch vieles lernen.",
@@ -132,6 +143,17 @@
         "poster": "series/0019/poster.jpg"
     },
     {
+        "id": "S0020",
+        "title": "Friends",
+        "plot": "Ross, Rachel, Monica, Chandler und Joey sind beste Freunde. Ob bei regelmäßigen Treffen im Café Central Perk oder in der WG mit den lilafarbenen Wänden, gemeinsam wird getratscht, gestritten und gelacht. Dabei ergeben sich im Laufe der Zeit immer wieder auch amouröse Verbindungen in und außerhalb der Gruppe, die zu Konflikten, aber auch zu herrlich romantischen Momenten führen.",
+        "mpaa": "FSK-6",
+        "year": "1994",
+        "seasons": 10,
+        "folder": "0020",
+        "filename": "tvshow",
+        "poster": "series/0020/poster.jpg"
+    },
+    {
         "id": "S0021",
         "title": "Dharma & Greg",
         "plot": "Sie könnten verschiedener nicht sein: die junge Yogalehrerin Dharma Finklestein und der karrierebewusste Yuppie Greg Montgomery. Eine unkonventionelle und eine wertkonservative Welt prallen aufeinander, als sich die beiden verlieben - und heiraten. Für beide Elternpaare eine Horrorvorstellung. Dharmas verrückte Freundin Jane und Gregs Freund und Anwaltskollege Pete vervollständigen das Quartett. Dharma Finklestein stößt in einer Justizbehörde auf den Anwalt Greg Montgomery. Die beiden verlieben sich auf Anhieb - und heiraten wenig später. Erst dann stellen sie fest, dass sie eigentlich ziemlich verschieden sind. Sowohl die Eltern von Greg als auch die Dharmas sind nicht gerade begeistert, als sie von der Eheschließung ihrer Sprösslinge hören. Dementsprechend verläuft das erste Treffen.",
@@ -176,6 +198,17 @@
         "poster": "series/0030/poster.jpg"
     },
     {
+        "id": "S0031",
+        "title": "Familienstreit De Luxe",
+        "plot": "Das Ehepaar Dave und Vicky meint, dass zu ihrer Jugendzeit alles noch ganz einfach war. Jetzt, wo sie allerdings Kinder im Teenager-Alter haben, merken sie erst, wie gut sie selbst es in diesem kritischen Alter hatten. Sie haben drei Kinder: Die 16-jährige Hillary, die sich unbedingt verabreden und ausgehen will, den 15 Jahre alten Larry, der bei seinen Mitschülern nicht besonders beliebt ist und das 'Nesthäkchen' Mike, der mit seinen 13 Jahren gerade mitten in den ersten Hormonwallungen der Pubertät steckt.",
+        "mpaa": "FSK-6",
+        "year": "2005",
+        "seasons": 2,
+        "folder": "0031",
+        "filename": "tvshow",
+        "poster": "series/0031/poster.jpg"
+    },
+    {
         "id": "S0032",
         "title": "Eine Schrecklich Nette Familie",
         "plot": "Willkommen bei den Bundys! Al Bundy ist ein ehemaliger Highschool-Footballspieler, der sein Leben lang davon zehrt, auf der Polk Highschool in einem einzigen Spiel vier Touchdowns erzielt zu haben, und seit seiner Heirat gezwungen ist, seinen Unterhalt als Damenschuhverkäufer zu verdienen; seine stets arbeitsunwillige Frau Peggy ist bekannt für ihr hochtoupiertes rotes Haar, kitschig-trashige Kleidung und ihre starke Abneigung gegenüber dem eigenen Haushalt; schließlich die gemeinsamen Kinder Kelly - ihre ebenso attraktive wie stets begriffsstutzige Tochter - und Bud, der nicht sehr beliebte, aber durchaus intelligente jüngste Spross der Familie.",
@@ -196,6 +229,17 @@
         "folder": "0042",
         "filename": "tvshow",
         "poster": "series/0042/poster.jpg"
+    },
+    {
+        "id": "S0043",
+        "title": "Fist Of The North Star",
+        "plot": "In der verwüsteten Welt nach dem Atomkrieg steuern die verfeindeten Brüder Raoh und Kenshiro auf die finale Konfrontation zu. Beide verfügen über beträchtliches Geheimwissen im Bereich der Kampfkünste und lieben dieselbe totgeglaubte Jugendfreundin. Ansonsten aber folgt der eine dem Pfad der Tugend, während der andere als sinistrer Gewaltmensch mit seinem Söldnerheer die kläglichen Reste der Menschheit unterdrückt. Als beide erfahren, dass Yuria noch lebt und sogar zum General aufstieg, entbrennt ein Wettlauf um die Dame.",
+        "mpaa": "FSK-16",
+        "year": "2009",
+        "seasons": 1,
+        "folder": "0043",
+        "filename": "tvshow",
+        "poster": "series/0043/poster.jpg"
     },
     {
         "id": "S0044",
@@ -264,6 +308,17 @@
         "poster": "series/0051/poster.jpg"
     },
     {
+        "id": "S0054",
+        "title": "Fantastic Four",
+        "plot": "Bei einem Weltraumausflug wurden Reed Richards, Ben Grimm, Susan Storm und Johnny Storm von kosmischer Strahlung bombardiert. Dadurch bekamen sie außergewöhnliche Superkräfte, die sie für das Gute nutzen wollten und wurden die Fantastic Four. Victor von Doom war ebenfalls beim Unfall anwesend, jedoch benutzte er seine Kräfte für das Böse.",
+        "mpaa": "FSK-6",
+        "year": "1994",
+        "seasons": 1,
+        "folder": "0054",
+        "filename": "tvshow",
+        "poster": "series/0054/poster.jpg"
+    },
+    {
         "id": "S0056",
         "title": "Animaniacs",
         "plot": "Anarchischer Cartoon Spaß der Sonderklasse: Yakko, Wakko und Dot sind drei durchgeknallte Zeichentrickgeschwister, so aberwitzig verrückt, dass man sie eigentlich nicht frei herumlaufen lassen kann. So hat man die Drei in einen Turm eingesperrt, aus dem sie jedoch durch einen dummen Zufall wieder freigekommen sind und nun wieder ihr gewohntes Unwesen und die gesamte Menschheit in den Wahnsinn treiben! Dabei singt und musiziert das chaotische Trio mit Leidenschaft und schrägem Witz, bis auch der Hartgesottenste vor lachen ohnmächtig wird!",
@@ -319,6 +374,28 @@
         "poster": "series/0072/poster.jpg"
     },
     {
+        "id": "S0073",
+        "title": "From",
+        "plot": "Enträtseln Sie das Geheimnis einer alptraumhaften Stadt in Mittelamerika, die alle, die sie betreten, gefangen hält. Während die unfreiwilligen Bewohner darum kämpfen, ein Gefühl der Normalität zu bewahren und nach einem Ausweg zu suchen, müssen sie auch die Bedrohungen des umliegenden Waldes überleben - einschließlich der schrecklichen Kreaturen, die von dort kommen, wenn die Sonne untergeht.",
+        "mpaa": "FSK-18",
+        "year": "2022",
+        "seasons": 4,
+        "folder": "0073",
+        "filename": "tvshow",
+        "poster": "series/0073/poster.jpg"
+    },
+    {
+        "id": "S0084",
+        "title": "Fallout",
+        "plot": "Basierend auf der größten Videospiel-Reihe aller Zeiten, erzählt „Fallout“ die Geschichte von Besitzenden und Besitzlosen in einer Welt, in der es fast nichts mehr zu besitzen gibt. 200 Jahre nach der Apokalypse ist eine friedliche Bewohnerin eines gemütlichen Atombunkers gezwungen, an die Oberfläche zurückzukehren... und ist erschüttert über das Ödland, das sie dort erwartet.",
+        "mpaa": "FSK-16",
+        "year": "2024",
+        "seasons": 2,
+        "folder": "0084",
+        "filename": "tvshow",
+        "poster": "series/0084/poster.jpg"
+    },
+    {
         "id": "S0101",
         "title": "Brooklyn Nine-Nine",
         "plot": "Als ihm ein anspruchsvoller neuer Captain vorgesetzt wird, muss ein genialer, aber kindischer Polizist aus Brooklyn wohl oder übel Regeltreue und Teamfähigkeit lernen.",
@@ -339,6 +416,17 @@
         "folder": "0102",
         "filename": "tvshow",
         "poster": "series/0102/poster.jpg"
+    },
+    {
+        "id": "S0103",
+        "title": "Family Guy",
+        "plot": "Die Griffins sind eine nach außen hin \"völlig normale\" Mittelklasse-Familie: Peter, seine Frau Lois, die drei Kinder Chris, Meg und Stewie - und Brian, der Hund. Der Vierbeiner ist eindeutig das eloquenteste Mitglied des Griffin-Haushaltes und der einzige, der im täglichen Chaos einen klaren Kopf behält. Seine sarkastischen Bemerkungen sind trocken wie die Martinis, die er so gerne trinkt. Brian ist der erste, an den sich Peter in Krisen wendet und das passiert ziemlich oft...",
+        "mpaa": "FSK-16",
+        "year": "1999",
+        "seasons": 23,
+        "folder": "0103",
+        "filename": "tvshow",
+        "poster": "series/0103/poster.jpg"
     },
     {
         "id": "S0104",
