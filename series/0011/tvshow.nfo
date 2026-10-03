@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<tvshow>
+   <title>Avatar - Der Herr Der Elemente</title>
+   <plot>Im Mittelpunkt von „Avatar: Der Herr der Elemente“ steht der zwölfjährige Aang, der in einer von den Herren des Feuers beherrschten asiatischen Fantasy-Welt lebt. Aang ist nicht nur der letzte Herrscher über die Luft, sondern auch der Avatar, der Herr über alle Elemente. Er ist derjenige, der über die Form von Wasser, Erde, Luft und Feuer bestimmt. Doch der Avatar war 100 Jahre lang in einem Gletscher am Südpol eingefroren, und während dieser Zeit sind die Herrscher des Feuers ihrem Ziel der totalen Weltherrschaft immer näher gekommen. Erst als Aang von Katara, der letzten Gebieterin des Wassers, und deren Bruder Sokka aus dem ewigen Eis befreit wird, hat er eine Chance, seine Mission zu erfüllen: Er muss die aus den Fugen geratene Welt retten und die Balance der Elemente wiederherstellen. Eine große Herausforderung für einen Zwölfjährigen - schließlich muss er noch vieles lernen.</plot>
+   <mpaa>FSK-6</mpaa>
+   <id>S0011</id>
+   <uniqueid type="mbdb">S0011</uniqueid>
+   <namedseason number="1">Buch 1 - Wasser</namedseason>
+   <namedseason number="2">Buch 2 - Erde</namedseason>
+   <namedseason number="3">Buch 3 - Feuer</namedseason>
+   <premiered>2005-01-01</premiered>
+</tvshow>

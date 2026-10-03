@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>Dawson's Creek</title>
+   <plot>Die besten Freunde Dawson, Joey, Pacey und Jen bewältigen die Hochs und Tiefs der Highschool und des Lebens. Träume, Sehnsucht und Drama sind ständige Begleiter.</plot>
+   <mpaa>FSK-12</mpaa>
+   <id>S0029</id>
+   <uniqueid type="mbdb">S0029</uniqueid>
+   <namedseason number="1">Staffel 1</namedseason>
+   <namedseason number="2">Staffel 2</namedseason>
+   <namedseason number="3">Staffel 3</namedseason>
+   <namedseason number="4">Staffel 4</namedseason>
+   <namedseason number="5">Staffel 5</namedseason>
+   <namedseason number="6">Staffel 6</namedseason>
+   <premiered>1998-01-01</premiered>
+</tvshow>

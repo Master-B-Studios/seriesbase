@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>BraveStarr</title>
+   <plot>Der Planet Neu Texas wird heimgesucht von Tex Hex und seiner Bande, die den keriumreichen Planeten unter ihre Kontrolle bringen wollen. Kerium ist das kostbarste Gut im Universum und wird benötigt, um Raumschiffe und Maschinen mit Energie zu versorgen. Marshall BraveStarr stellt sich den Ganoven mit den Augen des Falken, den Ohren des Wolfes, der Geschwindigkeit des Pumas und der Kraft des Bären...</plot>
+   <mpaa>FSK-6</mpaa>
+   <id>S0016</id>
+   <uniqueid type="mbdb">S0016</uniqueid>
+   <namedseason number="1">Staffel 1</namedseason>
+   <premiered>1987-01-01</premiered>
+</tvshow>

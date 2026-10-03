@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>Die Schönsten Seen Auf Dem Dach Der Welt</title>
+   <plot>Eine wundervolle Reise zu den beeindruckendsten Gewässern dieser Erde.</plot>
+   <mpaa>FSK-0</mpaa>
+   <id>S0045</id>
+   <uniqueid type="mbdb">S0045</uniqueid>
+   <namedseason number="1">Staffel 1</namedseason>
+   <premiered>2010-01-01</premiered>
+</tvshow>

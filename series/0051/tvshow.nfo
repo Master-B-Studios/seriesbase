@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>Cougar Town</title>
+   <plot>Jules Cobb ist eine Mutter in ihren Vierzigern, die sich den oft humorvollen Herausforderungen, Fallstricken und Belohnungen des nächsten Lebensabschnitts stellt. Mit auf der Reise sind ihr Sohn, ihr Ex-Mann, ihr Ehemann/Nachbar und ihre Freunde, die zusammen ihre dysfunktionale, aber hilfsbereite und fürsorgliche Großfamilie bilden... auch wenn sie das manchmal auf komische Weise zeigen.</plot>
+   <mpaa>FSK-12</mpaa>
+   <id>S0051</id>
+   <uniqueid type="mbdb">S0051</uniqueid>
+   <namedseason number="1">Staffel 1</namedseason>
+   <namedseason number="2">Staffel 2</namedseason>
+   <namedseason number="3">Staffel 3</namedseason>
+   <namedseason number="4">Staffel 4</namedseason>
+   <namedseason number="5">Staffel 5</namedseason>
+   <namedseason number="6">Staffel 6</namedseason>
+   <premiered>2010-01-01</premiered>
+</tvshow>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>Die Wahrheit Über Den Fall Harry Quebert</title>
+   <plot>Harry Quebert ist ein ehemaliger Star der Literaturszene. Mittlerweile hat er sich zurückgezogen und lebt wieder in der Kleinstadt Aurora. Dort wird er von seinem ehemaligen Schüler und Protegé Marcus Goldman aufgesucht: Nach seinem erfolgreichen Erstlingswerk leidet er schon seit zwei Jahren unter einer Schreibblockade.</plot>
+   <mpaa>FSK-16</mpaa>
+   <id>S0072</id>
+   <uniqueid type="mbdb">S0072</uniqueid>
+   <namedseason number="1">Staffel 1</namedseason>
+   <premiered>2018-01-01</premiered>
+</tvshow>

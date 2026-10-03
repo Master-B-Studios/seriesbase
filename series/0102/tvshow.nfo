@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>Die Lustige Welt Der Tiere</title>
+   <plot>Was passiert, wenn eine Horde wilder Tiere sich den Bauch mit gegorenen Früchten vollschlägt? Wie erziehen Löwen ihre manchmal nicht ganz einfachen Kinder? Und wie tanzen Skorpione und Schlangen zu klassischer Musik? Dieser wohl bekannteste Tierfilm gibt aufschlussreiche und humorvolle Details aus der Kalahari- sowie der Namibwüste preis.</plot>
+   <mpaa>FSK-0</mpaa>
+   <id>S0102</id>
+   <uniqueid type="mbdb">S0102</uniqueid>
+   <namedseason number="1">Staffel 1</namedseason>
+   <premiered>1974-01-01</premiered>
+</tvshow>

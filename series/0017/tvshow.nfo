@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>Darkwing Duck</title>
+   <plot>Darkwing Duck ist ein typischer Superheld, der versucht, seine Heimatstadt Sankt Erpelsburg vor dem Verbrechen zu schützen. Im Gegensatz zu Superhelden wie Batman oder Spider-Man stellt er sich dabei jedoch häufig eher ungeschickt an. Dies liegt vor allem an seiner enormen Tollpatschigkeit und seinem übersteigerten Ego. Anders allerdings als Inspector Gadget und ähnliche Zeichentrickhelden, die mehr Karikaturen als Superhelden sind, ist Darkwing letztendlich immer kompetent genug, um über das Böse zu triumphieren, auch wenn er dabei dann doch oft auf die Hilfe seiner Freunde angewiesen ist...</plot>
+   <mpaa>FSK-6</mpaa>
+   <id>S0017</id>
+   <uniqueid type="mbdb">S0017</uniqueid>
+   <namedseason number="1">Staffel 1</namedseason>
+   <premiered>1991-01-01</premiered>
+</tvshow>

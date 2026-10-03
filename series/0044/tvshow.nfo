@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>Circus HalliGalli</title>
+   <plot>Ein Sammelsurium der Albernheiten von Joko & Klaas...</plot>
+   <mpaa>FSK-12</mpaa>
+   <id>S0044</id>
+   <uniqueid type="mbdb">S0044</uniqueid>
+   <namedseason number="1">Aushalten - Nicht Lachen</namedseason>
+   <namedseason number="2">Die Beste Show Der Welt</namedseason>
+   <premiered>2005-01-01</premiered>
+</tvshow>

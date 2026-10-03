@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>Captain Tsubasa</title>
+   <plot>Tsubasa ist mit seinen Eltern frisch nach Nankatsu gezogen. Selbstverständlich schließt er sich gleich dem hiesigen Fußballverein der Schule an, denn schon bald stehen die Landesmeisterschaften an. Dort treffen er und sein Team auf starke Mannschaften, die alle ihre speziellen Techniken haben, um die besten Fußballer zu werden. Ob der FC Nankatsu gegen diese Mannschaften gewinnen kann?</plot>
+   <mpaa>FSK-6</mpaa>
+   <id>S0050</id>
+   <uniqueid type="mbdb">S0050</uniqueid>
+   <namedseason number="1">01 - Die Tollen Fussballstars</namedseason>
+   <namedseason number="2">02 - Super Kickers 2006</namedseason>
+   <premiered>1983-01-01</premiered>
+</tvshow>

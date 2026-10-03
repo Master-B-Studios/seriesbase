@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>Avatar</title>
+   <plot>Der als Avatar bekannte Junge muss vier elementare Kräfte beherrschen, um eine Welt im Krieg zu retten, und einen skrupellosen Feind besiegen, der dies verhindern will.</plot>
+   <mpaa>FSK-12</mpaa>
+   <id>S0104</id>
+   <uniqueid type="mbdb">S0104</uniqueid>
+   <namedseason number="1">Staffel 1</namedseason>
+   <namedseason number="2">Staffel 2</namedseason>
+   <premiered>2024-01-01</premiered>
+</tvshow>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>Detektiv Conan</title>
+   <plot>Conan Edogawa sieht aus wie ein Grundschüler. Tatsächlich ist er Shinichi Kudo, der 17-jährige Meisterdetektiv Japans, der von zwei Verbrechern vergiftet wurde. Er starb zwar nicht, entwickelte sich aber körperlich zum Kind zurück. Im Kopf ist er aber weiter der brillante Ermittler von einst und so stürzt er sich weiterhin auf geheimnisvolle Mordfälle.</plot>
+   <mpaa>FSK-12</mpaa>
+   <id>S0066</id>
+   <uniqueid type="mbdb">S0066</uniqueid>
+   <namedseason number="1">Staffel 1</namedseason>
+   <premiered>1996-01-01</premiered>
+</tvshow>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>Berlin Berlin</title>
+   <plot>Lolle, das Landei aus Malente, zieht in die Großstadt. Hier wohnt sie zusammen mit ihrem Cousin Sven in einer WG. Das Gefühlschaos ist vorprogrammiert Hart, Rosalie, Sarah und Vero... Das Leben in Berlin ist turbolent und Lolle mittendrin "Das Leben ist zum Heulen schön"...</plot>
+   <mpaa>FSK-12</mpaa>
+   <id>S0019</id>
+   <uniqueid type="mbdb">S0019</uniqueid>
+   <namedseason number="1">Staffel 1</namedseason>
+   <namedseason number="2">Staffel 2</namedseason>
+   <namedseason number="3">Staffel 3</namedseason>
+   <namedseason number="4">Staffel 4</namedseason>
+   <premiered>2002-01-01</premiered>
+</tvshow>

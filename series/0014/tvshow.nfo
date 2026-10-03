@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>Dragon Ball</title>
+   <plot>Son-Goku ist ein kleiner, aber kräftiger Junge mit einem Affenschwänzchen, der völlig unbeschwert fernab der Zivilisation im Urwald lebt. Doch sein Leben wird auf den Kopf gestellt, als eines Tages Bulma, ein Mädchen aus der Stadt, bei ihm auftaucht. Die schöne Bulma ist auf der Suche nach den sagenumwobenen Dragon Balls, denn wer alle sieben der zauberhaften Kugeln besitzt, dem erfüllt der göttliche Drache Shenlong einen Wunsch. Eine der Kugeln hat Son-Goku von seinem Großvater geerbt und Bulma hat bereits zwei weitere gefunden. Die Beiden freunden sich rasch an und beschließen, sich gemeinsam auf die Suche nach den vier verbliebenen Kugeln zu machen. Gemeinsam lernen sie viele neue Freunde kennen und müssen so manches Abenteuer bestehen, um ihr Ziel zu erreichen...</plot>
+   <mpaa>FSK-12</mpaa>
+   <id>S0014</id>
+   <uniqueid type="mbdb">S0014</uniqueid>
+   <namedseason number="1">01. Pilaw Saga</namedseason>
+   <namedseason number="2">02. Red Ribbon Saga</namedseason>
+   <namedseason number="3">03. Piccolo Saga</namedseason>
+   <namedseason number="4">04. Saiyajin Saga</namedseason>
+   <namedseason number="5">05. Freezer Saga</namedseason>
+   <namedseason number="6">06. Cell Saga</namedseason>
+   <namedseason number="7">07. Boo Saga</namedseason>
+   <namedseason number="8">08. Baby Saga</namedseason>
+   <namedseason number="9">09. Super-C-17 Saga</namedseason>
+   <namedseason number="10">10. Teufelsdrachen Saga</namedseason>
+   <premiered>1986-01-01</premiered>
+</tvshow>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>Die Gummibärenbande</title>
+   <plot>Zu Zeiten des Mittelalters lebt eine kleine Gruppe bunter Bären in den unterirdischen Gewölben eines Waldes fernab der Menschen. Diese halten die Existenz der Bären nur für eine Sage, und auch der Möchtegernritter Cavin vom Schloss Dunwyn glaubt nicht an diese merkwürdigen Geschöpfe - bis er eines Tages von einem der Bären gerettet wird. Er und seine Freundin, die abenteuerlustige Prinzessin Calla, werden zu engen Vertrauten der Gummibären und unterstützen sie beim Kampf gegen den bösen und jähzornigen Baron Igzorn von Drekmore. Dieser will die Herrschaft über Schloss Dunwyn an sich reißen und zu diesem Zweck den geheimen Zaubertrank der Gummibären stehlen, der ihnen Superkräfte verleiht und mit dessen Hilfe sie wie Gummibälle herumspringen können.</plot>
+   <mpaa>FSK-0</mpaa>
+   <id>S0030</id>
+   <uniqueid type="mbdb">S0030</uniqueid>
+   <namedseason number="1">Staffel 1</namedseason>
+   <namedseason number="2">Staffel 2</namedseason>
+   <namedseason number="3">Staffel 3</namedseason>
+   <namedseason number="4">Staffel 4</namedseason>
+   <namedseason number="5">Staffel 5</namedseason>
+   <namedseason number="6">Staffel 6</namedseason>
+   <premiered>1985-01-01</premiered>
+</tvshow>

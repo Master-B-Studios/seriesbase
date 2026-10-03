@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>Duck Tales</title>
+   <plot>Duck Tales erzählt die Abenteuer und Alltagssorgen von Dagobert Duck, seinen Freunden und seinen Neffen, Tick, Trick und Track. Neben den Abenteuern, Schatzsuchen sowie der Abwehr von „Katastrophen“, müssen sie sich gegen Dagoberts Konkurrenten MacMoneysack, die Panzerknacker und anderen Schurken behaupten...</plot>
+   <mpaa>FSK-0</mpaa>
+   <id>S0024</id>
+   <uniqueid type="mbdb">S0024</uniqueid>
+   <namedseason number="1">Staffel 1</namedseason>
+   <namedseason number="2">Staffel 2</namedseason>
+   <namedseason number="3">Staffel 3</namedseason>
+   <premiered>1987-01-01</premiered>
+</tvshow>

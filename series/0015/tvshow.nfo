@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>Baywatch</title>
+   <plot>Mitch Buchannon ist ein alter Hase im Lebensrettungsgeschäft und scheinbar jeder brenzligen Situation gewachsen, die an so einem gut gefüllten Strand passieren kann. Zusammen mit seinem Team aus kernigen Bademeistern und bildschönen Rettungsnixen rettet Mitch übermütigen Schwimmern das Leben, bekämpft Haie, beseitigt Erdbebenschäden, geht auf Ganovenjagd und bewältigt nebenbei noch große und kleine Beziehungsprobleme.</plot>
+   <mpaa>FSK-6</mpaa>
+   <id>S0015</id>
+   <uniqueid type="mbdb">S0015</uniqueid>
+   <namedseason number="1">Staffel 1</namedseason>
+   <namedseason number="2">Staffel 2</namedseason>
+   <namedseason number="3">Staffel 3</namedseason>
+   <namedseason number="4">Staffel 4</namedseason>
+   <namedseason number="5">Staffel 5</namedseason>
+   <namedseason number="6">Staffel 6</namedseason>
+   <namedseason number="7">Staffel 7</namedseason>
+   <namedseason number="8">Staffel 8</namedseason>
+   <namedseason number="9">Staffel 9</namedseason>
+   <namedseason number="10">Staffel 10</namedseason>
+   <namedseason number="11">Staffel 11</namedseason>
+   <premiered>1989-01-01</premiered>
+</tvshow>

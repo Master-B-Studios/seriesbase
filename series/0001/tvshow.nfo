@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>Cybill</title>
+   <plot>Mit der Karriere der Schauspielerin Cybill Sheridan geht es auf und ab. Sie bekommt keine guten Rollen mehr und verdient ihr Geld jetzt mit Werbespots und Minirollen. Aber auch privat hat Cybill einige Probleme: Sie ist zweimal geschieden, ihr Ex-Mann, der Buchautor Ira hofft immer noch, dass Cybill zu ihm zurückkommt, und ihr anderer Ex-Ehemann Jeff, der als Stuntman arbeitet, hat sich einen Platz in ihrem Wohnzimmer auf dem Sofa gesichert. Sie hat von jedem der beiden eine Tochter: Zoey, die noch zu Hause wohnt, und Rachel, die schon verheiratet ist und Cybill zur Großmutter macht. Mit ihrer besten Freundin Maryann, auch geschieden und steinreich, teilt sie die guten und schlechten Erfahrungen des Lebens, und meistert die Schwierigkeiten ihrer Karriere.</plot>
+   <mpaa>FSK-0</mpaa>
+   <id>S0001</id>
+   <uniqueid type="mbdb">S0001</uniqueid>
+   <namedseason number="1">Staffel 1</namedseason>
+   <namedseason number="2">Staffel 2</namedseason>
+   <namedseason number="3">Staffel 3</namedseason>
+   <namedseason number="4">Staffel 4</namedseason>
+   <premiered>1995-01-01</premiered>
+</tvshow>
