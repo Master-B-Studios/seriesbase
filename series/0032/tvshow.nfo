@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>Eine Schrecklich Nette Familie</title>
+   <plot>Willkommen bei den Bundys! Al Bundy ist ein ehemaliger Highschool-Footballspieler, der sein Leben lang davon zehrt, auf der Polk Highschool in einem einzigen Spiel vier Touchdowns erzielt zu haben, und seit seiner Heirat gezwungen ist, seinen Unterhalt als Damenschuhverkäufer zu verdienen; seine stets arbeitsunwillige Frau Peggy ist bekannt für ihr hochtoupiertes rotes Haar, kitschig-trashige Kleidung und ihre starke Abneigung gegenüber dem eigenen Haushalt; schließlich die gemeinsamen Kinder Kelly - ihre ebenso attraktive wie stets begriffsstutzige Tochter - und Bud, der nicht sehr beliebte, aber durchaus intelligente jüngste Spross der Familie.</plot>
+   <mpaa>FSK-12</mpaa>
+   <id>S0032</id>
+   <uniqueid type="mbdb">S0032</uniqueid>
+   <namedseason number="1">Staffel 1</namedseason>
+   <namedseason number="2">Staffel 2</namedseason>
+   <namedseason number="3">Staffel 3</namedseason>
+   <namedseason number="4">Staffel 4</namedseason>
+   <namedseason number="5">Staffel 5</namedseason>
+   <namedseason number="6">Staffel 6</namedseason>
+   <namedseason number="7">Staffel 7</namedseason>
+   <namedseason number="8">Staffel 8</namedseason>
+   <namedseason number="9">Staffel 9</namedseason>
+   <namedseason number="10">Staffel 10</namedseason>
+   <namedseason number="11">Staffel 11</namedseason>
+   <premiered>1987-01-01</premiered>
+</tvshow>

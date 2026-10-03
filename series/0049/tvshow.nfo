@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>Ein Colt Für Alle Fälle</title>
+   <plot>Colt Seavers ist Stuntman und arbeitet nebenbei als Kopfgeldjäger für eine Firma, die Kautionen für Angeklagte stellt. Unterstützt wird er dabei von seinem Cousin, dem tollpatschigen Schönling Howie Munson, genannt „Kleiner“, und seiner Assistentin Jody Banks, einer blonden kalifornischen Schönheit mit Stuntfrau-Ambitionen. Die meisten Aufträge erhalten die drei von den Kautionshelferinnen Samantha und Terri.</plot>
+   <mpaa>FSK-12</mpaa>
+   <id>S0049</id>
+   <uniqueid type="mbdb">S0049</uniqueid>
+   <namedseason number="1">Staffel 1</namedseason>
+   <namedseason number="2">Staffel 2</namedseason>
+   <namedseason number="3">Staffel 3</namedseason>
+   <namedseason number="4">Staffel 4</namedseason>
+   <namedseason number="5">Staffel 5</namedseason>
+   <premiered>1981-01-01</premiered>
+</tvshow>
