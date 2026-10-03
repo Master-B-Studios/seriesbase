@@ -77,13 +77,10 @@ json_text = json.dumps(
 )
 
 if OUTPUT.exists():
-
     old_json = OUTPUT.read_text(encoding="utf-8")
-
     if old_json == json_text:
         print("✅ series.json ist bereits aktuell.")
         raise SystemExit
-
 OUTPUT.write_text(
     json_text,
     encoding="utf-8"
