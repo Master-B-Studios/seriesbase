@@ -47,7 +47,7 @@ def read_serie(folder: Path):
         "folder": folder.name,
         "filename": nfo.stem,
         "poster": (
-            f"Series/{folder.name}/{poster.name}"
+            f"series/{folder.name}/{poster.name}"
             if poster else ""
         ),
     }
