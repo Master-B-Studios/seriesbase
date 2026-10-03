@@ -8,7 +8,7 @@
         "seasons": 4,
         "folder": "0001",
         "filename": "tvshow",
-        "poster": "Series/0001/poster.jpg"
+        "poster": "series/0001/poster.jpg"
     },
     {
         "id": "S0002",
@@ -19,7 +19,7 @@
         "seasons": 3,
         "folder": "0002",
         "filename": "tvshow",
-        "poster": "Series/0002/poster.jpg"
+        "poster": "series/0002/poster.jpg"
     },
     {
         "id": "S0003",
@@ -30,7 +30,7 @@
         "seasons": 4,
         "folder": "0003",
         "filename": "tvshow",
-        "poster": "Series/0003/poster.jpg"
+        "poster": "series/0003/poster.jpg"
     },
     {
         "id": "S0011",
@@ -41,7 +41,7 @@
         "seasons": 3,
         "folder": "0011",
         "filename": "tvshow",
-        "poster": "Series/0011/poster.jpg"
+        "poster": "series/0011/poster.jpg"
     },
     {
         "id": "S0012",
@@ -52,7 +52,7 @@
         "seasons": 4,
         "folder": "0012",
         "filename": "tvshow",
-        "poster": "Series/0012/poster.jpg"
+        "poster": "series/0012/poster.jpg"
     },
     {
         "id": "S0013",
@@ -63,7 +63,7 @@
         "seasons": 5,
         "folder": "0013",
         "filename": "tvshow",
-        "poster": "Series/0013/poster.jpg"
+        "poster": "series/0013/poster.jpg"
     },
     {
         "id": "S0014",
@@ -74,7 +74,7 @@
         "seasons": 10,
         "folder": "0014",
         "filename": "tvshow",
-        "poster": "Series/0014/poster.jpg"
+        "poster": "series/0014/poster.jpg"
     },
     {
         "id": "S0015",
@@ -85,7 +85,7 @@
         "seasons": 11,
         "folder": "0015",
         "filename": "tvshow",
-        "poster": "Series/0015/poster.jpg"
+        "poster": "series/0015/poster.jpg"
     },
     {
         "id": "S0016",
@@ -96,7 +96,7 @@
         "seasons": 1,
         "folder": "0016",
         "filename": "tvshow",
-        "poster": "Series/0016/poster.jpg"
+        "poster": "series/0016/poster.jpg"
     },
     {
         "id": "S0017",
@@ -107,7 +107,7 @@
         "seasons": 1,
         "folder": "0017",
         "filename": "tvshow",
-        "poster": "Series/0017/poster.jpg"
+        "poster": "series/0017/poster.jpg"
     },
     {
         "id": "S0018",
@@ -118,7 +118,7 @@
         "seasons": 4,
         "folder": "0018",
         "filename": "tvshow",
-        "poster": "Series/0018/poster.jpg"
+        "poster": "series/0018/poster.jpg"
     },
     {
         "id": "S0019",
@@ -129,7 +129,7 @@
         "seasons": 4,
         "folder": "0019",
         "filename": "tvshow",
-        "poster": "Series/0019/poster.jpg"
+        "poster": "series/0019/poster.jpg"
     },
     {
         "id": "S0021",
@@ -140,7 +140,7 @@
         "seasons": 5,
         "folder": "0021",
         "filename": "tvshow",
-        "poster": "Series/0021/poster.jpg"
+        "poster": "series/0021/poster.jpg"
     },
     {
         "id": "S0024",
@@ -151,7 +151,7 @@
         "seasons": 3,
         "folder": "0024",
         "filename": "tvshow",
-        "poster": "Series/0024/poster.jpg"
+        "poster": "series/0024/poster.jpg"
     },
     {
         "id": "S0029",
@@ -162,7 +162,7 @@
         "seasons": 6,
         "folder": "0029",
         "filename": "tvshow",
-        "poster": "Series/0029/poster.jpg"
+        "poster": "series/0029/poster.jpg"
     },
     {
         "id": "S0030",
@@ -173,7 +173,7 @@
         "seasons": 6,
         "folder": "0030",
         "filename": "tvshow",
-        "poster": "Series/0030/poster.jpg"
+        "poster": "series/0030/poster.jpg"
     },
     {
         "id": "S0032",
@@ -184,7 +184,7 @@
         "seasons": 11,
         "folder": "0032",
         "filename": "tvshow",
-        "poster": "Series/0032/poster.jpg"
+        "poster": "series/0032/poster.jpg"
     },
     {
         "id": "S0042",
@@ -195,7 +195,7 @@
         "seasons": 9,
         "folder": "0042",
         "filename": "tvshow",
-        "poster": "Series/0042/poster.jpg"
+        "poster": "series/0042/poster.jpg"
     },
     {
         "id": "S0044",
@@ -206,7 +206,7 @@
         "seasons": 2,
         "folder": "0044",
         "filename": "tvshow",
-        "poster": "Series/0044/poster.jpg"
+        "poster": "series/0044/poster.jpg"
     },
     {
         "id": "S0045",
@@ -217,7 +217,7 @@
         "seasons": 1,
         "folder": "0045",
         "filename": "tvshow",
-        "poster": "Series/0045/poster.jpg"
+        "poster": "series/0045/poster.jpg"
     },
     {
         "id": "S0048",
@@ -228,7 +228,7 @@
         "seasons": 2,
         "folder": "0048",
         "filename": "tvshow",
-        "poster": "Series/0048/poster.jpg"
+        "poster": "series/0048/poster.jpg"
     },
     {
         "id": "S0049",
@@ -239,7 +239,7 @@
         "seasons": 5,
         "folder": "0049",
         "filename": "tvshow",
-        "poster": "Series/0049/poster.jpg"
+        "poster": "series/0049/poster.jpg"
     },
     {
         "id": "S0050",
@@ -250,7 +250,7 @@
         "seasons": 2,
         "folder": "0050",
         "filename": "tvshow",
-        "poster": "Series/0050/poster.jpg"
+        "poster": "series/0050/poster.jpg"
     },
     {
         "id": "S0051",
@@ -261,7 +261,7 @@
         "seasons": 6,
         "folder": "0051",
         "filename": "tvshow",
-        "poster": "Series/0051/poster.jpg"
+        "poster": "series/0051/poster.jpg"
     },
     {
         "id": "S0056",
@@ -272,7 +272,7 @@
         "seasons": 1,
         "folder": "0056",
         "filename": "tvshow",
-        "poster": "Series/0056/poster.jpg"
+        "poster": "series/0056/poster.jpg"
     },
     {
         "id": "S0057",
@@ -283,7 +283,7 @@
         "seasons": 5,
         "folder": "0057",
         "filename": "tvshow",
-        "poster": "Series/0057/poster.jpg"
+        "poster": "series/0057/poster.jpg"
     },
     {
         "id": "S0058",
@@ -294,7 +294,7 @@
         "seasons": 1,
         "folder": "0058",
         "filename": "tvshow",
-        "poster": "Series/0058/poster.jpg"
+        "poster": "series/0058/poster.jpg"
     },
     {
         "id": "S0066",
@@ -305,7 +305,7 @@
         "seasons": 1,
         "folder": "0066",
         "filename": "tvshow",
-        "poster": "Series/0066/poster.jpg"
+        "poster": "series/0066/poster.jpg"
     },
     {
         "id": "S0072",
@@ -316,7 +316,7 @@
         "seasons": 1,
         "folder": "0072",
         "filename": "tvshow",
-        "poster": "Series/0072/poster.jpg"
+        "poster": "series/0072/poster.jpg"
     },
     {
         "id": "S0101",
@@ -327,7 +327,7 @@
         "seasons": 8,
         "folder": "0101",
         "filename": "tvshow",
-        "poster": "Series/0101/poster.jpg"
+        "poster": "series/0101/poster.jpg"
     },
     {
         "id": "S0102",
@@ -338,7 +338,7 @@
         "seasons": 1,
         "folder": "0102",
         "filename": "tvshow",
-        "poster": "Series/0102/poster.jpg"
+        "poster": "series/0102/poster.jpg"
     },
     {
         "id": "S0104",
@@ -349,6 +349,6 @@
         "seasons": 2,
         "folder": "0104",
         "filename": "tvshow",
-        "poster": "Series/0104/poster.jpg"
+        "poster": "series/0104/poster.jpg"
     }
 ]
