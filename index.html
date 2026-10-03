@@ -4,9 +4,9 @@
   <title>MB Series-Base</title>
   <meta charset="utf-8"></meta>
   <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"></meta>
-  <link rel="icon" type="image/x-icon" href="../../images/MB_Icon_02.svg"></link>
-  <link rel="stylesheet" href="../../assets/css/main.css"></link>
-  <noscript><link rel="stylesheet" href="../../assets/css/noscript.css" /></noscript>
+  <link rel="icon" type="image/x-icon" href="../homepage/images/MB_Icon_02.svg"></link>
+  <link rel="stylesheet" href="../homepage/assets/css/main.css"></link>
+  <noscript><link rel="stylesheet" href="../homepage/assets/css/noscript.css" /></noscript>
   <style>
     @font-face {font-family: "Creato";src: url("Fonts/Creato.otf") format("truetype");font-weight: normal;font-style: normal;color: #ffffff;}
     @font-face {font-family: "FuturaHand";src: url("Fonts/FuturaHand.ttf") format("truetype");font-weight: normal;font-style: normal;color: #ffffff;}
@@ -113,11 +113,11 @@
   <div id="wrapper">
     
     <nav id="nav">
-      <a href="../../index.html"><img class="mb_icon" src="../../images/MB_Icon_02.svg"></img><span>Home</span></a>
-      <a href="../../Web-Tools/web-tools.html"><img class="mb_icon" src="../../images/Web_Icon_01.png"></img><span>Web-Tools</span></a>
-      <a href="../../Local-Tools/local-tools.html"><img class="mb_icon" src="../../images/CMD_Icon_01.png"></img><span>Local-Tools</span></a>
-	  <a href="../../Games/games.html"><img class="mb_icon" src="../../images/Games_Icon_01.png"></img><span>Games</span></a>
-      <a href="#mb_series_base"><img class="mb_icon" src="icon_01.png"></img><span>Movie-Base</span></a>
+      <a href="../homepage/index.html"><img class="mb_icon" src="../homepage/images/MB_Icon_02.svg"></img><span>Home</span></a>
+      <a href="../homepage/Web-Tools/web-tools.html"><img class="mb_icon" src="../homepage/images/Web_Icon_01.png"></img><span>Web-Tools</span></a>
+      <a href="../homepage/Local-Tools/local-tools.html"><img class="mb_icon" src="../homepage/images/CMD_Icon_01.png"></img><span>Local-Tools</span></a>
+	  <a href="../homepage/Games/games.html"><img class="mb_icon" src="../homepage/images/Games_Icon_01.png"></img><span>Games</span></a>
+      <a href="#mb_series_base"><img class="mb_icon" src="icons/icon0.png"></img><span>Movie-Base</span></a>
     </nav>
     
     <div id="main">
@@ -132,11 +132,11 @@
   </div>
 </body>
 
-<script src="../../assets/js/jquery.min.js"></script>
-<script src="../../assets/js/browser.min.js"></script>
-<script src="../../assets/js/breakpoints.min.js"></script>
-<script src="../../assets/js/util.js"></script>
-<script src="../../assets/js/main.js"></script>
+<script src="../homepage/assets/js/jquery.min.js"></script>
+<script src="../homepage/assets/js/browser.min.js"></script>
+<script src="../homepage/assets/js/breakpoints.min.js"></script>
+<script src="../homepage/assets/js/util.js"></script>
+<script src="../homepage/assets/js/main.js"></script>
 <script>
   let current_data = [];
   let current_group = 'Name';
@@ -362,7 +362,7 @@
         overlayContainer.className = "overlayContainerLandscape";
           overlayInfo1.className = "overlayInfo1Landscape";
             overlayFSK.className = "overlayFSKLandscape";
-            overlayFSK.innerHTML = '<img src="Scripts/' + movie.mpaa + '.png" loading="lazy">';
+            overlayFSK.innerHTML = '<img src="icons/' + movie.mpaa + '.png" loading="lazy">';
             overlayInfo1.appendChild(overlayFSK);
             overlayNumber.className = "overlayNumberLandscape";
             overlayNumber.innerHTML = '<svg height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor"><path d="m240-160 40-160H120l20-80h160l40-160H180l20-80h160l40-160h80l-40 160h160l40-160h80l-40 160h160l-20 80H660l-40 160h160l-20 80H600l-40 160h-80l40-160H360l-40 160h-80Zm140-240h160l40-160H420l-40 160Z"/></svg>' + movie.id;
@@ -443,7 +443,7 @@
             spacer2.className = "spacer2Portrait";
             overlayInfo2.appendChild(spacer2);
             overlayFSK.className = "overlayFSKPortrait";
-            overlayFSK.innerHTML = '<img src="Scripts/' + movie.mpaa + '.png" loading="lazy">';
+            overlayFSK.innerHTML = '<img src="icons/' + movie.mpaa + '.png" loading="lazy">';
             overlayInfo2.appendChild(overlayFSK);
             overlayPlot.className = "overlayPlotPortrait";
             overlayPlot.innerHTML = movie.plot;
