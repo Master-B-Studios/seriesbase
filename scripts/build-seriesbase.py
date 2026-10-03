@@ -56,7 +56,7 @@ def read_serie(folder: Path):
 series = []
 
 folders = sorted(
-    [folder for folder in MOVIES.iterdir() if folder.is_dir()],
+    [folder for folder in SERIES.iterdir() if folder.is_dir()],
     key=lambda folder: int(folder.name)
 )
 

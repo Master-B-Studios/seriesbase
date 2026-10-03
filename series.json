@@ -1,5 +1,27 @@
 [
     {
+        "id": "S0001",
+        "title": "Cybill",
+        "plot": "Mit der Karriere der Schauspielerin Cybill Sheridan geht es auf und ab. Sie bekommt keine guten Rollen mehr und verdient ihr Geld jetzt mit Werbespots und Minirollen. Aber auch privat hat Cybill einige Probleme: Sie ist zweimal geschieden, ihr Ex-Mann, der Buchautor Ira hofft immer noch, dass Cybill zu ihm zurückkommt, und ihr anderer Ex-Ehemann Jeff, der als Stuntman arbeitet, hat sich einen Platz in ihrem Wohnzimmer auf dem Sofa gesichert. Sie hat von jedem der beiden eine Tochter: Zoey, die noch zu Hause wohnt, und Rachel, die schon verheiratet ist und Cybill zur Großmutter macht. Mit ihrer besten Freundin Maryann, auch geschieden und steinreich, teilt sie die guten und schlechten Erfahrungen des Lebens, und meistert die Schwierigkeiten ihrer Karriere.",
+        "mpaa": "FSK-0",
+        "year": "1995",
+        "seasons": 4,
+        "folder": "0001",
+        "filename": "tvshow",
+        "poster": "Series/0001/poster.jpg"
+    },
+    {
+        "id": "S0002",
+        "title": "Drawn Together",
+        "plot": "Drawn Together ist eine US-amerikanische Zeichentrickserie, die Film und Fernsehen persifliert. Der derbe Humor mit viel Sexbezug und Gewalt richtet sich ausschließlich an ein erwachsenes Publikum. Die Deutschsprachige Erstausstrahlung erfolgte am 3. Mai 2006 auf MTV Germany. Die Handlung ist an das Konzept von Reality-Shows angelehnt. Unterschiedliche Personen werden in einem Haus untergebracht und dabei von Kameras beobachtet. Comedy Central machte damit Werbung, dass Drawn Together die erste animierte Reality Show sei, in der acht Zeichentrick-Figuren gewollt zusammen in einem Haus leben. In manchen Episoden müssen sich die Figuren ein paar Herausforderungen stellen, basierend auf echten Reality-Shows.",
+        "mpaa": "FSK-18",
+        "year": "2004",
+        "seasons": 3,
+        "folder": "0002",
+        "filename": "tvshow",
+        "poster": "Series/0002/poster.jpg"
+    },
+    {
         "id": "S0011",
         "title": "Avatar - Der Herr Der Elemente",
         "plot": "Im Mittelpunkt von „Avatar: Der Herr der Elemente“ steht der zwölfjährige Aang, der in einer von den Herren des Feuers beherrschten asiatischen Fantasy-Welt lebt. Aang ist nicht nur der letzte Herrscher über die Luft, sondern auch der Avatar, der Herr über alle Elemente. Er ist derjenige, der über die Form von Wasser, Erde, Luft und Feuer bestimmt. Doch der Avatar war 100 Jahre lang in einem Gletscher am Südpol eingefroren, und während dieser Zeit sind die Herrscher des Feuers ihrem Ziel der totalen Weltherrschaft immer näher gekommen. Erst als Aang von Katara, der letzten Gebieterin des Wassers, und deren Bruder Sokka aus dem ewigen Eis befreit wird, hat er eine Chance, seine Mission zu erfüllen: Er muss die aus den Fugen geratene Welt retten und die Balance der Elemente wiederherstellen. Eine große Herausforderung für einen Zwölfjährigen - schließlich muss er noch vieles lernen.",
@@ -20,6 +42,17 @@
         "folder": "0013",
         "filename": "tvshow",
         "poster": "Series/0013/poster.jpg"
+    },
+    {
+        "id": "S0014",
+        "title": "Dragon Ball",
+        "plot": "Son-Goku ist ein kleiner, aber kräftiger Junge mit einem Affenschwänzchen, der völlig unbeschwert fernab der Zivilisation im Urwald lebt. Doch sein Leben wird auf den Kopf gestellt, als eines Tages Bulma, ein Mädchen aus der Stadt, bei ihm auftaucht. Die schöne Bulma ist auf der Suche nach den sagenumwobenen Dragon Balls, denn wer alle sieben der zauberhaften Kugeln besitzt, dem erfüllt der göttliche Drache Shenlong einen Wunsch. Eine der Kugeln hat Son-Goku von seinem Großvater geerbt und Bulma hat bereits zwei weitere gefunden. Die Beiden freunden sich rasch an und beschließen, sich gemeinsam auf die Suche nach den vier verbliebenen Kugeln zu machen. Gemeinsam lernen sie viele neue Freunde kennen und müssen so manches Abenteuer bestehen, um ihr Ziel zu erreichen...",
+        "mpaa": "FSK-12",
+        "year": "1986",
+        "seasons": 10,
+        "folder": "0014",
+        "filename": "tvshow",
+        "poster": "Series/0014/poster.jpg"
     },
     {
         "id": "S0015",
@@ -44,6 +77,17 @@
         "poster": "Series/0016/poster.jpg"
     },
     {
+        "id": "S0017",
+        "title": "Darkwing Duck",
+        "plot": "Darkwing Duck ist ein typischer Superheld, der versucht, seine Heimatstadt Sankt Erpelsburg vor dem Verbrechen zu schützen. Im Gegensatz zu Superhelden wie Batman oder Spider-Man stellt er sich dabei jedoch häufig eher ungeschickt an. Dies liegt vor allem an seiner enormen Tollpatschigkeit und seinem übersteigerten Ego. Anders allerdings als Inspector Gadget und ähnliche Zeichentrickhelden, die mehr Karikaturen als Superhelden sind, ist Darkwing letztendlich immer kompetent genug, um über das Böse zu triumphieren, auch wenn er dabei dann doch oft auf die Hilfe seiner Freunde angewiesen ist...",
+        "mpaa": "FSK-6",
+        "year": "1991",
+        "seasons": 1,
+        "folder": "0017",
+        "filename": "tvshow",
+        "poster": "Series/0017/poster.jpg"
+    },
+    {
         "id": "S0018",
         "title": "ALF",
         "plot": "Ein lautes Poltern in der Garage schreckt Familie Tanner auf. Was ist nur passiert? Vater Willie kann nicht glauben, was er zu sehen bekommt. Ein rothaariges Wesen mit einer gigantischen Nase ist in seinem Haus gelandet. Ein Außerirdischer Alf kommt vom Planeten Melmac und musste auf der Erde notlanden. Da die Tanners nicht in der Lage sind, sein Raumschiff zu reparieren, muss Alf zunächst bei der Familie bleiben. Sein Appetit auf Katzen, stundenlange Telefongespräche und unstillbarer Hunger machen das Zusammenleben mit ihm allerdings nicht gerade einfach. Als auch noch die Nachbarin ahnt, dass bei den Tanners etwas Außergewöhnliches vorgeht, ist die ganze Familie in Alarmbereitschaft. Schließlich ist Alf ein Alien und könnte schon bald auf einem Seziertisch landen...",
@@ -64,6 +108,116 @@
         "folder": "0019",
         "filename": "tvshow",
         "poster": "Series/0019/poster.jpg"
+    },
+    {
+        "id": "S0021",
+        "title": "Dharma & Greg",
+        "plot": "Sie könnten verschiedener nicht sein: die junge Yogalehrerin Dharma Finklestein und der karrierebewusste Yuppie Greg Montgomery. Eine unkonventionelle und eine wertkonservative Welt prallen aufeinander, als sich die beiden verlieben - und heiraten. Für beide Elternpaare eine Horrorvorstellung. Dharmas verrückte Freundin Jane und Gregs Freund und Anwaltskollege Pete vervollständigen das Quartett. Dharma Finklestein stößt in einer Justizbehörde auf den Anwalt Greg Montgomery. Die beiden verlieben sich auf Anhieb - und heiraten wenig später. Erst dann stellen sie fest, dass sie eigentlich ziemlich verschieden sind. Sowohl die Eltern von Greg als auch die Dharmas sind nicht gerade begeistert, als sie von der Eheschließung ihrer Sprösslinge hören. Dementsprechend verläuft das erste Treffen.",
+        "mpaa": "FSK-6",
+        "year": "1997",
+        "seasons": 5,
+        "folder": "0021",
+        "filename": "tvshow",
+        "poster": "Series/0021/poster.jpg"
+    },
+    {
+        "id": "S0024",
+        "title": "Duck Tales",
+        "plot": "Duck Tales erzählt die Abenteuer und Alltagssorgen von Dagobert Duck, seinen Freunden und seinen Neffen, Tick, Trick und Track. Neben den Abenteuern, Schatzsuchen sowie der Abwehr von „Katastrophen“, müssen sie sich gegen Dagoberts Konkurrenten MacMoneysack, die Panzerknacker und anderen Schurken behaupten...",
+        "mpaa": "FSK-0",
+        "year": "1987",
+        "seasons": 3,
+        "folder": "0024",
+        "filename": "tvshow",
+        "poster": "Series/0024/poster.jpg"
+    },
+    {
+        "id": "S0029",
+        "title": "Dawson's Creek",
+        "plot": "Die besten Freunde Dawson, Joey, Pacey und Jen bewältigen die Hochs und Tiefs der Highschool und des Lebens. Träume, Sehnsucht und Drama sind ständige Begleiter.",
+        "mpaa": "FSK-12",
+        "year": "1998",
+        "seasons": 6,
+        "folder": "0029",
+        "filename": "tvshow",
+        "poster": "Series/0029/poster.jpg"
+    },
+    {
+        "id": "S0030",
+        "title": "Die Gummibärenbande",
+        "plot": "Zu Zeiten des Mittelalters lebt eine kleine Gruppe bunter Bären in den unterirdischen Gewölben eines Waldes fernab der Menschen. Diese halten die Existenz der Bären nur für eine Sage, und auch der Möchtegernritter Cavin vom Schloss Dunwyn glaubt nicht an diese merkwürdigen Geschöpfe - bis er eines Tages von einem der Bären gerettet wird. Er und seine Freundin, die abenteuerlustige Prinzessin Calla, werden zu engen Vertrauten der Gummibären und unterstützen sie beim Kampf gegen den bösen und jähzornigen Baron Igzorn von Drekmore. Dieser will die Herrschaft über Schloss Dunwyn an sich reißen und zu diesem Zweck den geheimen Zaubertrank der Gummibären stehlen, der ihnen Superkräfte verleiht und mit dessen Hilfe sie wie Gummibälle herumspringen können.",
+        "mpaa": "FSK-0",
+        "year": "1985",
+        "seasons": 6,
+        "folder": "0030",
+        "filename": "tvshow",
+        "poster": "Series/0030/poster.jpg"
+    },
+    {
+        "id": "S0042",
+        "title": "Die Schlümpfe",
+        "plot": "Die kleinen blauen Wesen mit den markanten Zipfelmützen leben vergnügt und fröhlich in ihrem Dorf Schlumpfhausen im Verwunschenen Land, bewohnen ausgehöhlte Pilze, die wie Häuser eingerichtet sind, essen Schlumpfbeeren, basteln, musizieren und bauen fleißig ihr Dorf aus. Die Autorität im Dorf und eine Art „Anführer“ ist Papa Schlumpf. Er hat einen weißen Rauschebart, und seine Mütze und Hose haben die Farbe Rot, im Gegensatz zur weißen Kleidung der anderen. Gestört werden die Schlümpfe regelmäßig vom bösen Zauberer Gargamel, der zusammen mit seiner hungrigen Katze Asrael immer wieder Jagd auf sie macht, da er einen Schlumpf als Zutat für sein Rezept zur Herstellung von Gold benötigt. Doch durch ihren eisernen Zusammenhalt und die weisen Tricks von Papa Schlumpf gelingt es den Freunden immer wieder, Gargamel ein Schnippchen zu schlagen.",
+        "mpaa": "FSK-6",
+        "year": "1981",
+        "seasons": 9,
+        "folder": "0042",
+        "filename": "tvshow",
+        "poster": "Series/0042/poster.jpg"
+    },
+    {
+        "id": "S0044",
+        "title": "Circus HalliGalli",
+        "plot": "Ein Sammelsurium der Albernheiten von Joko & Klaas...",
+        "mpaa": "FSK-12",
+        "year": "2005",
+        "seasons": 2,
+        "folder": "0044",
+        "filename": "tvshow",
+        "poster": "Series/0044/poster.jpg"
+    },
+    {
+        "id": "S0045",
+        "title": "Die Schönsten Seen Auf Dem Dach Der Welt",
+        "plot": "Eine wundervolle Reise zu den beeindruckendsten Gewässern dieser Erde.",
+        "mpaa": "FSK-0",
+        "year": "2010",
+        "seasons": 1,
+        "folder": "0045",
+        "filename": "tvshow",
+        "poster": "Series/0045/poster.jpg"
+    },
+    {
+        "id": "S0048",
+        "title": "Die Ringe Der Macht",
+        "plot": "Bekannte und neue Charaktere müssen sich dem Wiedererstarken des Bösen in Mittelerde stellen. Von den dunkelsten Tiefen des Nebelgebirges bis zu den majestätischen Wäldern von Lindon, vom Inselkönigreich Númenor bis zu den entlegensten Winkeln der Landkarte werden diese Reiche und Charaktere ein Vermächtnis schaffen, das die Zukunft von Mittelerde prägen wird.",
+        "mpaa": "FSK-12",
+        "year": "2022",
+        "seasons": 2,
+        "folder": "0048",
+        "filename": "tvshow",
+        "poster": "Series/0048/poster.jpg"
+    },
+    {
+        "id": "S0050",
+        "title": "Captain Tsubasa",
+        "plot": "Tsubasa ist mit seinen Eltern frisch nach Nankatsu gezogen. Selbstverständlich schließt er sich gleich dem hiesigen Fußballverein der Schule an, denn schon bald stehen die Landesmeisterschaften an. Dort treffen er und sein Team auf starke Mannschaften, die alle ihre speziellen Techniken haben, um die besten Fußballer zu werden. Ob der FC Nankatsu gegen diese Mannschaften gewinnen kann?",
+        "mpaa": "FSK-6",
+        "year": "1983",
+        "seasons": 2,
+        "folder": "0050",
+        "filename": "tvshow",
+        "poster": "Series/0050/poster.jpg"
+    },
+    {
+        "id": "S0051",
+        "title": "Cougar Town",
+        "plot": "Jules Cobb ist eine Mutter in ihren Vierzigern, die sich den oft humorvollen Herausforderungen, Fallstricken und Belohnungen des nächsten Lebensabschnitts stellt. Mit auf der Reise sind ihr Sohn, ihr Ex-Mann, ihr Ehemann/Nachbar und ihre Freunde, die zusammen ihre dysfunktionale, aber hilfsbereite und fürsorgliche Großfamilie bilden... auch wenn sie das manchmal auf komische Weise zeigen.",
+        "mpaa": "FSK-12",
+        "year": "2010",
+        "seasons": 6,
+        "folder": "0051",
+        "filename": "tvshow",
+        "poster": "Series/0051/poster.jpg"
     },
     {
         "id": "S0056",
@@ -88,6 +242,39 @@
         "poster": "Series/0057/poster.jpg"
     },
     {
+        "id": "S0058",
+        "title": "Chip & Chap - Die Ritter Des Rechts",
+        "plot": "Die Streifenhörnchen Chip & Chap - die mutigsten und frechsten Disney-Stars. Für die beiden Geheimagenten ist kein Abenteuer zu groß...",
+        "mpaa": "FSK-6",
+        "year": "1989",
+        "seasons": 1,
+        "folder": "0058",
+        "filename": "tvshow",
+        "poster": "Series/0058/poster.jpg"
+    },
+    {
+        "id": "S0066",
+        "title": "Detektiv Conan",
+        "plot": "Conan Edogawa sieht aus wie ein Grundschüler. Tatsächlich ist er Shinichi Kudo, der 17-jährige Meisterdetektiv Japans, der von zwei Verbrechern vergiftet wurde. Er starb zwar nicht, entwickelte sich aber körperlich zum Kind zurück. Im Kopf ist er aber weiter der brillante Ermittler von einst und so stürzt er sich weiterhin auf geheimnisvolle Mordfälle.",
+        "mpaa": "FSK-12",
+        "year": "1996",
+        "seasons": 1,
+        "folder": "0066",
+        "filename": "tvshow",
+        "poster": "Series/0066/poster.jpg"
+    },
+    {
+        "id": "S0072",
+        "title": "Die Wahrheit Über Den Fall Harry Quebert",
+        "plot": "Harry Quebert ist ein ehemaliger Star der Literaturszene. Mittlerweile hat er sich zurückgezogen und lebt wieder in der Kleinstadt Aurora. Dort wird er von seinem ehemaligen Schüler und Protegé Marcus Goldman aufgesucht: Nach seinem erfolgreichen Erstlingswerk leidet er schon seit zwei Jahren unter einer Schreibblockade.",
+        "mpaa": "FSK-16",
+        "year": "2018",
+        "seasons": 1,
+        "folder": "0072",
+        "filename": "tvshow",
+        "poster": "Series/0072/poster.jpg"
+    },
+    {
         "id": "S0101",
         "title": "Brooklyn Nine-Nine",
         "plot": "Als ihm ein anspruchsvoller neuer Captain vorgesetzt wird, muss ein genialer, aber kindischer Polizist aus Brooklyn wohl oder übel Regeltreue und Teamfähigkeit lernen.",
@@ -97,6 +284,17 @@
         "folder": "0101",
         "filename": "tvshow",
         "poster": "Series/0101/poster.jpg"
+    },
+    {
+        "id": "S0102",
+        "title": "Die Lustige Welt Der Tiere",
+        "plot": "Was passiert, wenn eine Horde wilder Tiere sich den Bauch mit gegorenen Früchten vollschlägt? Wie erziehen Löwen ihre manchmal nicht ganz einfachen Kinder? Und wie tanzen Skorpione und Schlangen zu klassischer Musik? Dieser wohl bekannteste Tierfilm gibt aufschlussreiche und humorvolle Details aus der Kalahari- sowie der Namibwüste preis.",
+        "mpaa": "FSK-0",
+        "year": "1974",
+        "seasons": 1,
+        "folder": "0102",
+        "filename": "tvshow",
+        "poster": "Series/0102/poster.jpg"
     },
     {
         "id": "S0104",
