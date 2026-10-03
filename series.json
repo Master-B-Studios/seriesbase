@@ -22,6 +22,17 @@
         "poster": "Series/0002/poster.jpg"
     },
     {
+        "id": "S0003",
+        "title": "Ehe Ist",
+        "plot": "Eddie und Joy Stamm sind schon seit Menschengedenken miteinander verheiratet und haben es sich in ihrem Haus in einer klassischen Vorstadtsiedlung gemütlich gemacht. Ihre neuen Nachbarn Steph und Jeff Woodcock sind frisch vermählt und verliebt bis über beiden Ohren. Für Eddie schon mal klar, dass Jeff dringend seinen Rat in Sachen \"Gatte-sein\" nötig hat. Und für die Woodcocks ist der Blick über den Gartenzaun gleichzeitig eine überraschende sowie bestürzende Vorschau auf die Zukunft ihrer Ehe: Sie lernen, dass zu jeder guten Ehe auch pragmatische Spielchen gehören, wie z.B. \"Sex gegen Möbel\" zu verhandeln oder wie wichtig es ist, Mini-Steaks grillen zu können. \"Bis dass der Tod sie scheidet\" - \"til Death\" wird das nun so bleiben.",
+        "mpaa": "FSK-6",
+        "year": "2006",
+        "seasons": 4,
+        "folder": "0003",
+        "filename": "tvshow",
+        "poster": "Series/0003/poster.jpg"
+    },
+    {
         "id": "S0011",
         "title": "Avatar - Der Herr Der Elemente",
         "plot": "Im Mittelpunkt von „Avatar: Der Herr der Elemente“ steht der zwölfjährige Aang, der in einer von den Herren des Feuers beherrschten asiatischen Fantasy-Welt lebt. Aang ist nicht nur der letzte Herrscher über die Luft, sondern auch der Avatar, der Herr über alle Elemente. Er ist derjenige, der über die Form von Wasser, Erde, Luft und Feuer bestimmt. Doch der Avatar war 100 Jahre lang in einem Gletscher am Südpol eingefroren, und während dieser Zeit sind die Herrscher des Feuers ihrem Ziel der totalen Weltherrschaft immer näher gekommen. Erst als Aang von Katara, der letzten Gebieterin des Wassers, und deren Bruder Sokka aus dem ewigen Eis befreit wird, hat er eine Chance, seine Mission zu erfüllen: Er muss die aus den Fugen geratene Welt retten und die Balance der Elemente wiederherstellen. Eine große Herausforderung für einen Zwölfjährigen - schließlich muss er noch vieles lernen.",
@@ -31,6 +42,17 @@
         "folder": "0011",
         "filename": "tvshow",
         "poster": "Series/0011/poster.jpg"
+    },
+    {
+        "id": "S0012",
+        "title": "Ein Trio Zum Anbeissen",
+        "plot": "Die College-Studenten Pete und Berg teilen sich ein Appartement und verdienen sich ihren Lebensunterhalt als Pizza-Boten in Bills „Beacon Steet Pizza“ in Boston. Berg, der das Leben durch eine rosarote Brille sieht, will Medizin studieren. Bis es soweit ist, verdient er sich als medizinisches Versuchskaninchen etwas dazu. Pete will - vielleicht - Architekt werden. Ihre beste Freundin Sharon wohnt über ihnen und steht bereits voll im harten Arbeitsleben. Sie ist Vertreterin für Chemikalien: „Ein neuer Kunde für mich - eine Vogelart weniger“.",
+        "mpaa": "FSK-6",
+        "year": "1998",
+        "seasons": 4,
+        "folder": "0012",
+        "filename": "tvshow",
+        "poster": "Series/0012/poster.jpg"
     },
     {
         "id": "S0013",
@@ -154,6 +176,17 @@
         "poster": "Series/0030/poster.jpg"
     },
     {
+        "id": "S0032",
+        "title": "Eine Schrecklich Nette Familie",
+        "plot": "Willkommen bei den Bundys! Al Bundy ist ein ehemaliger Highschool-Footballspieler, der sein Leben lang davon zehrt, auf der Polk Highschool in einem einzigen Spiel vier Touchdowns erzielt zu haben, und seit seiner Heirat gezwungen ist, seinen Unterhalt als Damenschuhverkäufer zu verdienen; seine stets arbeitsunwillige Frau Peggy ist bekannt für ihr hochtoupiertes rotes Haar, kitschig-trashige Kleidung und ihre starke Abneigung gegenüber dem eigenen Haushalt; schließlich die gemeinsamen Kinder Kelly - ihre ebenso attraktive wie stets begriffsstutzige Tochter - und Bud, der nicht sehr beliebte, aber durchaus intelligente jüngste Spross der Familie.",
+        "mpaa": "FSK-12",
+        "year": "1987",
+        "seasons": 11,
+        "folder": "0032",
+        "filename": "tvshow",
+        "poster": "Series/0032/poster.jpg"
+    },
+    {
         "id": "S0042",
         "title": "Die Schlümpfe",
         "plot": "Die kleinen blauen Wesen mit den markanten Zipfelmützen leben vergnügt und fröhlich in ihrem Dorf Schlumpfhausen im Verwunschenen Land, bewohnen ausgehöhlte Pilze, die wie Häuser eingerichtet sind, essen Schlumpfbeeren, basteln, musizieren und bauen fleißig ihr Dorf aus. Die Autorität im Dorf und eine Art „Anführer“ ist Papa Schlumpf. Er hat einen weißen Rauschebart, und seine Mütze und Hose haben die Farbe Rot, im Gegensatz zur weißen Kleidung der anderen. Gestört werden die Schlümpfe regelmäßig vom bösen Zauberer Gargamel, der zusammen mit seiner hungrigen Katze Asrael immer wieder Jagd auf sie macht, da er einen Schlumpf als Zutat für sein Rezept zur Herstellung von Gold benötigt. Doch durch ihren eisernen Zusammenhalt und die weisen Tricks von Papa Schlumpf gelingt es den Freunden immer wieder, Gargamel ein Schnippchen zu schlagen.",
@@ -196,6 +229,17 @@
         "folder": "0048",
         "filename": "tvshow",
         "poster": "Series/0048/poster.jpg"
+    },
+    {
+        "id": "S0049",
+        "title": "Ein Colt Für Alle Fälle",
+        "plot": "Colt Seavers ist Stuntman und arbeitet nebenbei als Kopfgeldjäger für eine Firma, die Kautionen für Angeklagte stellt. Unterstützt wird er dabei von seinem Cousin, dem tollpatschigen Schönling Howie Munson, genannt „Kleiner“, und seiner Assistentin Jody Banks, einer blonden kalifornischen Schönheit mit Stuntfrau-Ambitionen. Die meisten Aufträge erhalten die drei von den Kautionshelferinnen Samantha und Terri.",
+        "mpaa": "FSK-12",
+        "year": "1981",
+        "seasons": 5,
+        "folder": "0049",
+        "filename": "tvshow",
+        "poster": "Series/0049/poster.jpg"
     },
     {
         "id": "S0050",
