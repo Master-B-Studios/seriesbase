@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>Lukas Bey</title>
+   <plot>Ein Sammelsurium der Auftritte von Lukas Paul Bey</plot>
+   <mpaa>FSK-0</mpaa>
+   <id>S0099</id>
+   <uniqueid type="mbdb">S0099</uniqueid>
+   <namedseason number="1">2020</namedseason>
+   <namedseason number="1">2024</namedseason>
+   <premiered>2014-06-09</premiered>
+</tvshow>

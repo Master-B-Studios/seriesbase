@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>Graf Duckula</title>
+   <plot>Graf Duckula ist ein Vampir. Leider wurden bei der Wiederbelebung des Grafen einige Fehler begangen. So verabscheut Duckula z. B. Blut. Er lebt in seinem Schloss - gemeinsam mit seinem Butler Igor und der Haushälterin Emma. Zusammen stolpern sie von einem Schlamassel ins nächste...</plot>
+   <mpaa>FSK-6</mpaa>
+   <id>S0022</id>
+   <uniqueid type="mbdb">S0022</uniqueid>
+   <namedseason number="1">Staffel 1</namedseason>
+   <premiered>1988-01-01</premiered>
+</tvshow>

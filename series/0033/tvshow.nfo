@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>Knight Rider</title>
+   <plot>Die Serie handelt von Michael Knight und seinem sprechenden Auto K.I.T.T., das über eine künstliche Intelligenz verfügt. Gemeinsam kämpfen sie im Auftrag der Foundation für Recht und Verfassung gegen Unrecht und Verbrechen. Die Missionen führen Knight zu den unterschiedlichsten Menschen in den verschiedensten Gegenden der USA und Mexikos. Unterstützt wird er dabei vom Leiter der Foundation, Devon Miles sowie Dr. Bonnie Barstow bzw. April Curtis, Elektronik- und Computer-Expertinnen sowie Chef-Mechanikerinnen von K.I.T.T..</plot>
+   <mpaa>FSK-12</mpaa>
+   <id>S0033</id>
+   <uniqueid type="mbdb">S0033</uniqueid>
+   <namedseason number="1">Staffel 1</namedseason>
+   <namedseason number="2">Staffel 2</namedseason>
+   <namedseason number="3">Staffel 3</namedseason>
+   <namedseason number="4">Staffel 4</namedseason>
+   <premiered>1982-01-01</premiered>
+</tvshow>

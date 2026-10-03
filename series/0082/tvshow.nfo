@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>The Boys</title>
+   <plot>Eine ehrfurchtslose Interpretation dessen, was passiert, wenn Superhelden, die berühmt sind wie Stars, einflussreich sind wie Politiker und verehrt werden wie Götter, ihre Superkräfte missbrauchen, anstatt Gutes zu tun. Die Machtlosen stellen sich gegen die Übermächtigen, als The Boys versuchen, die Wahrheit über "The Seven" und Vought dahinter ans Licht zu bringen.</plot>
+   <mpaa>FSK-18</mpaa>
+   <id>S0082</id>
+   <uniqueid type="mbdb">S0082</uniqueid>
+   <namedseason number="1">Staffel 1</namedseason>
+   <namedseason number="2">Staffel 2</namedseason>
+   <namedseason number="3">Staffel 3</namedseason>
+   <namedseason number="4">Staffel 4</namedseason>
+   <namedseason number="5">Staffel 5</namedseason>
+   <premiered>2019-01-01</premiered>
+</tvshow>

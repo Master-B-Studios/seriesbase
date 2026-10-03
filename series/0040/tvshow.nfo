@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>One Piece</title>
+   <plot>Monkey D. Ruffy hat nur ein Ziel: Er will der König der Piraten werden! Gemeinsam mit seiner Crew - der berühmt-berüchtigten Strohhutbande - begibt er sich auf die Suche nach dem legendärsten Schatz aller Zeiten: Dem sagenumwobenen One Piece!</plot>
+   <mpaa>FSK-12</mpaa>
+   <id>S0040</id>
+   <uniqueid type="mbdb">S0040</uniqueid>
+   <namedseason number="1">Staffel 01 - East Blue Saga</namedseason>
+   <namedseason number="2">Staffel 02 - Baroque-Firma Saga</namedseason>
+   <namedseason number="3">Staffel 03 - Skypia Saga</namedseason>
+   <namedseason number="4">Staffel 04 - CP 9 Saga - Teil 1</namedseason>
+   <namedseason number="5">Staffel 05 - CP 9 Saga - Teil 2</namedseason>
+   <namedseason number="6">Staffel 06 - Thriller Bark Saga</namedseason>
+   <namedseason number="7">Staffel 07 - Entscheidungsschlacht Saga - Teil 1</namedseason>
+   <namedseason number="8">Staffel 08 - Entscheidungsschlacht Saga - Teil 2</namedseason>
+   <namedseason number="9">Staffel 09 - Fischmenscheninsel Saga</namedseason>
+   <namedseason number="10">Staffel 10 - Dressrosa Saga - Teil 1</namedseason>
+   <namedseason number="11">Staffel 11 - Dressrosa Saga - Teil 2</namedseason>
+   <namedseason number="12">Staffel 12</namedseason>
+   <namedseason number="13">Staffel 13</namedseason>
+   <namedseason number="14">Staffel 14</namedseason>
+   <namedseason number="15">Staffel 15</namedseason>
+   <namedseason number="16">Staffel 16</namedseason>
+   <namedseason number="17">Staffel 17</namedseason>
+   <namedseason number="18">Staffel 18</namedseason>
+   <namedseason number="19">Staffel 19</namedseason>
+   <namedseason number="20">Staffel 20</namedseason>
+   <premiered>1999-01-01</premiered>
+</tvshow>

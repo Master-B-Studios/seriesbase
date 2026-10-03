@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>Switch</title>
+   <plot>In Switch sind die meisten Sketche meist sehr detailgetreue Parodien tatsächlicher Fernsehsendungen. Switch zeichnet sich gegenüber anderen Comedy-Sendungen durch hohe Gagdichte und schnelles Tempo aus. Die einzelnen Sketche werden in der Sendung so aneinandergefügt, als würde sich jemand mit der Fernbedienung durch die Fernsehkanäle „switchen“. Diese Umschaltvorgänge werden durch ein kurzes „Schneegestöber“ auf dem Bildschirm und ein „Umschaltgeräusch“ verdeutlicht. Dabei wird fast jeder Sketch durch einen anderen Sketch unterbrochen, um dann wieder auf ihn zurückzukommen.</plot>
+   <mpaa>FSK-12</mpaa>
+   <id>S0037</id>
+   <uniqueid type="mbdb">S0037</uniqueid>
+   <namedseason number="1">Staffel 1</namedseason>
+   <namedseason number="2">Staffel 2</namedseason>
+   <namedseason number="3">Staffel 3</namedseason>
+   <namedseason number="4">Staffel 4</namedseason>
+   <premiered>1997-01-01</premiered>
+</tvshow>

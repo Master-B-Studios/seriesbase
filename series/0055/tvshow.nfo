@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>Spider-Man</title>
+   <plot>Peter Parker ist ein genialer Schüler, der jedoch regelmäßig schikaniert wird. Nachdem er von einer radioaktiv-verseuchten Spinne gebissen wird, erhält er durch ein wissenschaftliches Wunder spinnenähnliche Superkräfte. Aber mit den Superkräften wächst auch die Verantwortung. Gequält vom Gedanken, den Tod seines Onkels nicht verhindert zu haben, widmet er sein Leben der Verbrechensbekämpfung. Ein netzspinnender, wandkletternder Superheld der Nachbarschaft ist geboren - euer freundlicher Spider-Man...</plot>
+   <mpaa>FSK-6</mpaa>
+   <id>S0055</id>
+   <uniqueid type="mbdb">S0055</uniqueid>
+   <namedseason number="1">1981</namedseason>
+   <namedseason number="2">1990</namedseason>
+   <namedseason number="3">1993</namedseason>
+   <namedseason number="4">2008</namedseason>
+   <namedseason number="5">2012</namedseason>
+   <premiered>1981-01-01</premiered>
+</tvshow>

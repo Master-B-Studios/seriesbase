@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>Star Trek - Sinnlos Im Weltraum</title>
+   <plot>Die Idee der Nachvertonung von Star Trek ist aus einer Art Bierlaune entstanden. Da diese geniale Idee der Synchronisation der verschiedenen Enterprisefolgen nicht nur von allen Beteiligten für gut geheißen werden konnte, sondern auch von Außenstehenden zu einer Art Kult wurde, hat man sich kurzerhand entschlossen ein paar Folgen mehr zu bearbeiten. Da die technischen Möglichkeiten leider begrenzt waren, geschah die Nachvertonung mittels Mikrofon und einem Videorekorder mit nur einem Kanal. Als weiteres technisches Hilfsmittel, z. B. für Türengeräusche, wurde ein Schlüsselanhänger mit acht Star-Trek-Geräuschen benutzt. Die meiste Musik wurde von den Synchronisten selbst gemacht, mit Gitarren, Drumcomputer u. Ä....</plot>
+   <mpaa>FSK-16</mpaa>
+   <id>S0007</id>
+   <uniqueid type="mbdb">S0007</uniqueid>
+   <namedseason number="1">Staffel 1</namedseason>
+   <premiered>2002-01-01</premiered>
+</tvshow>

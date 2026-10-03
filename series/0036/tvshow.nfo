@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>Superman - Die Abenteuer Von Lois Und Clark</title>
+   <plot>Als Reporter des „Daily Planet“ liegen sich Clark Kent und Lois Lane ständig in den Haaren, doch während sie den heißesten Storys auf der Spur sind, vertragen sie sich beim Flirt schnell wieder. Lois ahnt nichts von Clarks geheimen Superkräften, mit denen er als „Superman“ ein ums andere Mal die Stadt Metropolis vor Katastrophen bewahrt.</plot>
+   <mpaa>FSK-6</mpaa>
+   <id>S0036</id>
+   <uniqueid type="mbdb">S0036</uniqueid>
+   <namedseason number="1">Staffel 1</namedseason>
+   <namedseason number="2">Staffel 2</namedseason>
+   <namedseason number="3">Staffel 3</namedseason>
+   <namedseason number="4">Staffel 4</namedseason>
+   <premiered>1993-01-01</premiered>
+</tvshow>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>Switch Reloaded</title>
+   <plot>Die internationale Fernsehprominenz zittert: Das Team von "Switch" kehrt zurück und parodiert noch erbarmungsloser die Stars der TV-Szene. Florian Silbereisen singt plötzlich Anti-Rentner-Songs und der Bulle von Tölz kann nur noch mit Hilfe einer Sackkarre bewegt werden. Ob Günther Jauch oder Johannes B. Kerner, ob Dr. House oder Tim Mälzer, 50Cent beim "Volksfest der Volksmusik", Gummipuppen bei QVC, Fernseh-Affe Charly bei "Tiere suchen ein Zuhause" - nichts und niemand bleibt verschont!</plot>
+   <mpaa>FSK-12</mpaa>
+   <id>S0038</id>
+   <uniqueid type="mbdb">S0038</uniqueid>
+   <namedseason number="1">Staffel 1</namedseason>
+   <namedseason number="2">Staffel 2</namedseason>
+   <namedseason number="3">Staffel 3</namedseason>
+   <namedseason number="4">Staffel 4</namedseason>
+   <namedseason number="5">Staffel 5</namedseason>
+   <namedseason number="6">Staffel 6</namedseason>
+   <premiered>2009-01-01</premiered>
+</tvshow>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>Parker Lewis</title>
+   <plot>Die Serie handelt von den drei Freunden Parker Lewis, Mikey Randall und Jerry Steiner, die sich mit Witz und möglichst viel Coolness den absurden Problemen ihres Teenager-Lebens stellen. Besonders zu schaffen machen ihnen die tyrannische High-School-Rektorin Grace Musso und deren rechte Hand Frank Lemmer, der Schulschläger Larry Kubiac sowie Parkers jüngere Schwester Shelly.</plot>
+   <mpaa>FSK-12</mpaa>
+   <id>S0061</id>
+   <uniqueid type="mbdb">S0061</uniqueid>
+   <namedseason number="1">Staffel 1</namedseason>
+   <namedseason number="2">Staffel 2</namedseason>
+   <namedseason number="3">Staffel 3</namedseason>
+   <premiered>1990-01-01</premiered>
+</tvshow>

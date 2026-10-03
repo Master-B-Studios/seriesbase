@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>Game Of Thrones</title>
+   <plot>Auf den Kontinenten Essos und Westeros, mit den Sieben Königreichen und dem Gebiet jenseits der "Mauer" im hohen Norden, ist die Länge der Sommer und Winter unvorhersehbar und variabel - eine Jahreszeit kann Jahre oder sogar Jahrzehnte dauern. Am Ende eines langen Sommers bauen sich zwischen den mächtigsten Adelshäusern des Reiches Spannungen auf, die schließlich zum offenen Thronkampf führen. Gleichzeitig droht der Wintereinbruch und es zeichnet sich eine Gefahr durch eine fremde Rasse im hohen Norden von Westeros ab.</plot>
+   <mpaa>FSK-16</mpaa>
+   <id>S0069</id>
+   <uniqueid type="mbdb">S0069</uniqueid>
+   <namedseason number="1">Staffel 1</namedseason>
+   <namedseason number="2">Staffel 2</namedseason>
+   <namedseason number="3">Staffel 3</namedseason>
+   <namedseason number="4">Staffel 4</namedseason>
+   <namedseason number="5">Staffel 5</namedseason>
+   <namedseason number="6">Staffel 6</namedseason>
+   <namedseason number="7">Staffel 7</namedseason>
+   <namedseason number="8">Staffel 8</namedseason>
+   <premiered>2011-01-01</premiered>
+</tvshow>

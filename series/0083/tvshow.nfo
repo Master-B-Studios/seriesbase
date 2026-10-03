@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>LOL</title>
+   <plot>Zehn Comedians, sechs Stunden, ein Raum: In einem ultimativen Wettkampf müssen diese Comedians versuchen, ernst zu bleiben und nicht zu lachen. Wer wird als erstes gehen? Wer bringt seine Mittstreiter zum lachen? Und am wichtigsten: Wer bleibt am Ende übrig?</plot>
+   <mpaa>FSK-6</mpaa>
+   <id>S0083</id>
+   <uniqueid type="mbdb">S0083</uniqueid>
+   <namedseason number="1">Staffel 1</namedseason>
+   <namedseason number="2">Staffel 2</namedseason>
+   <namedseason number="3">Staffel 3</namedseason>
+   <namedseason number="4">Staffel 4</namedseason>
+   <namedseason number="5">Staffel 5</namedseason>
+   <namedseason number="6">Staffel 6</namedseason>
+   <namedseason number="7">Staffel 7</namedseason>
+   <premiered>2018-01-01</premiered>
+</tvshow>

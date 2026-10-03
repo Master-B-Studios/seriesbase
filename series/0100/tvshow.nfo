@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>SHREDS</title>
+   <plot>Satirische Re-Kompositionen</plot>
+   <mpaa>FSK-0</mpaa>
+   <id>S0100</id>
+   <uniqueid type="mbdb">S0100</uniqueid>
+   <namedseason number="1">Staffel 1</namedseason>
+   <premiered>2014-01-01</premiered>
+</tvshow>

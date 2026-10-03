@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>Pusteblume</title>
+   <plot>Vorgängersendung von Löwenzahn</plot>
+   <mpaa>FSK-0</mpaa>
+   <id>S0059</id>
+   <uniqueid type="mbdb">S0059</uniqueid>
+   <namedseason number="1">Staffel 1</namedseason>
+   <premiered>1990-01-01</premiered>
+</tvshow>

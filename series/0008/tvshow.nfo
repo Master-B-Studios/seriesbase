@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>Scrubs</title>
+   <plot>Der junge Mediziner John “J.D.” Dorian schlägt sich mit seinen Kollegen durch den chaotisch-skurrilen Krankenhausalltag. Dabei werden die jungen Ärzte von ihrem bösartigen Chef Dr. Kelso und dem hinterhältigen Hausmeister geplagt. Doch nicht nur der Job hält die Mediziner auf Trab - auch ihr Privatleben gerät immer wieder in Turbulenzen.</plot>
+   <mpaa>FSK-6</mpaa>
+   <id>S0008</id>
+   <uniqueid type="mbdb">S0008</uniqueid>
+   <namedseason number="1">Staffel 1</namedseason>
+   <namedseason number="2">Staffel 2</namedseason>
+   <namedseason number="3">Staffel 3</namedseason>
+   <namedseason number="4">Staffel 4</namedseason>
+   <namedseason number="5">Staffel 5</namedseason>
+   <namedseason number="6">Staffel 6</namedseason>
+   <namedseason number="7">Staffel 7</namedseason>
+   <namedseason number="8">Staffel 8</namedseason>
+   <namedseason number="9">Staffel 9</namedseason>
+   <premiered>2001-01-01</premiered>
+</tvshow>

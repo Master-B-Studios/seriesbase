@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>Geschichten Aus Der Gruft</title>
+   <plot>„Geschichten aus der Gruft“ ist eine Horror-Serie, die auf diversen Comics von William Gaines, welche den bekannten „Gespenster-Geschichten“ in gewisser Weise ähneln, basiert.</plot>
+   <mpaa>FSK-18</mpaa>
+   <id>S0010</id>
+   <uniqueid type="mbdb">S0010</uniqueid>
+   <namedseason number="1">Staffel 1</namedseason>
+   <namedseason number="2">Staffel 2</namedseason>
+   <namedseason number="3">Staffel 3</namedseason>
+   <namedseason number="4">Staffel 4</namedseason>
+   <namedseason number="5">Staffel 5</namedseason>
+   <namedseason number="6">Staffel 6</namedseason>
+   <namedseason number="7">Staffel 7</namedseason>
+   <premiered>1989-01-01</premiered>
+</tvshow>

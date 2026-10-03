@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>Pinky & The Brain</title>
+   <plot>"Was wollen wir denn heute Abend machen, Brain?" - "Das selbe wie jeden Abend Pinky, wir versuchen die Weltherrschaft an uns zu reißen".</plot>
+   <mpaa>FSK-6</mpaa>
+   <id>S0006</id>
+   <uniqueid type="mbdb">S0006</uniqueid>
+   <namedseason number="1">Staffel 1</namedseason>
+   <namedseason number="2">Staffel 2</namedseason>
+   <namedseason number="3">Staffel 3</namedseason>
+   <namedseason number="4">Staffel 4</namedseason>
+   <premiered>1995-01-01</premiered>
+</tvshow>

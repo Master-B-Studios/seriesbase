@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>Tom & Jerry</title>
+   <plot>Die zeitlosen Eskapaden von Tom und Jerry werden jetzt in einer brandneuen Show präsentiert! Machen wir uns auf die Gag-Jagd mit dem beliebtesten Katz-und-Maus-Duo der Welt. Wieder sind alle bestens bekannten Favoriten mit dabei: Spike, Tyke, Tuffy und Butch.</plot>
+   <mpaa>FSK-0</mpaa>
+   <id>S0062</id>
+   <uniqueid type="mbdb">S0062</uniqueid>
+   <namedseason number="1">Staffel 1</namedseason>
+   <premiered>1980-01-01</premiered>
+</tvshow>

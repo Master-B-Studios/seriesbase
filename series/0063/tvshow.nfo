@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>Xena - Die Kriegerprinzessin</title>
+   <plot>In der historischen Zeit der Götter, skrupellosen Kriegsherren und launenhaften Königen rief ein Land in Aufruhr verzweifelt nach einem Helden. Diesem Ruf folgte Xena, eine mächtige, kampferprobte Kriegerin. Nachdem Xena geschlagen und betäubt aus Dracos unbarmherzigen Spießrutenlauf hervorgetreten war, gelobte sie, ihre dunkle Vergangenheit hinter sich zu lassen und einen Pfad einzuschlagen, auf dem sie anstatt Böses zu tun, das Böse bekämpft...</plot>
+   <mpaa>FSK-16</mpaa>
+   <id>S0063</id>
+   <uniqueid type="mbdb">S0063</uniqueid>
+   <namedseason number="1">Staffel 1</namedseason>
+   <namedseason number="2">Staffel 2</namedseason>
+   <namedseason number="3">Staffel 3</namedseason>
+   <namedseason number="4">Staffel 4</namedseason>
+   <namedseason number="5">Staffel 5</namedseason>
+   <namedseason number="6">Staffel 6</namedseason>
+   <premiered>1995-01-01</premiered>
+</tvshow>

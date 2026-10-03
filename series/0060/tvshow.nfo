@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<tvshow>
+   <title>Top Gear</title>
+   <plot>Die spektakulärsten Autos der Welt, Testfahrten auf dem Vulkan und jede Menge coole Sprüche: "Top Gear" - die Mutter aller Auto-Shows! Das weltweit erfolgreichste TV-Format rund ums Thema „fahrbarer Untersatz“ begeistert seine Zuschauer seit Jahren mit sensationellen Stunts, präzise recherchierten Beiträgen und den meistgefürchteten Kfz-Kritiken von Jeremy Clarkson, Richard Hammond & James May.</plot>
+   <mpaa>FSK-16</mpaa>
+   <id>S0060</id>
+   <uniqueid type="mbdb">S0060</uniqueid>
+   <namedseason number="1">Staffel 1</namedseason>
+   <namedseason number="2">Staffel 2</namedseason>
+   <namedseason number="3">Staffel 3</namedseason>
+   <namedseason number="4">Staffel 4</namedseason>
+   <namedseason number="5">Staffel 5</namedseason>
+   <namedseason number="6">Staffel 6</namedseason>
+   <namedseason number="7">Staffel 7</namedseason>
+   <namedseason number="8">Staffel 8</namedseason>
+   <namedseason number="9">Staffel 9</namedseason>
+   <namedseason number="10">Staffel 10</namedseason>
+   <namedseason number="11">Staffel 11</namedseason>
+   <namedseason number="12">Staffel 12</namedseason>
+   <namedseason number="13">Staffel 13</namedseason>
+   <namedseason number="14">Staffel 14</namedseason>
+   <namedseason number="15">Staffel 15</namedseason>
+   <namedseason number="16">Staffel 16</namedseason>
+   <namedseason number="17">Staffel 17</namedseason>
+   <namedseason number="18">Staffel 18</namedseason>
+   <namedseason number="19">Staffel 19</namedseason>
+   <namedseason number="20">Staffel 20</namedseason>
+   <namedseason number="21">Staffel 21</namedseason>
+   <namedseason number="22">Staffel 22</namedseason>
+   <premiered>2002-01-01</premiered>
+</tvshow>
