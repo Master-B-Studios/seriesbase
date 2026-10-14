@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="de">
   <head>
     <title>MB Series-Base</title>
     <meta charset="utf-8"></meta>
@@ -12,7 +12,7 @@
 
       #menubar {width: auto;height: 4rem;position: fixed;top: 0;z-index: 9000;display: block;display: flex;}
       #menubar div {width: auto;height: auto;display: grid;grid-template-columns: min-content;grid-template-rows: min-content;}
-      #menubar_logo {width: 4rem;height: 4rem;grid-column: 1; grid-row: 1;margin: 0.5rem;background-color: #000000cc;box-shadow: rgba(255, 255, 255, 0.3) 2px 2px 6px 1px inset;border-radius: 0.5rem;border: 1px solid #444444;color: #dbdbdb;cursor: pointer;transition: all 0.6s;}
+      #menubar_logo {width: 4rem;height: 4rem;grid-column: 1; grid-row: 1;margin: 0.5rem 0 0 0.5rem;background-color: #000000cc;box-shadow: rgba(255, 255, 255, 0.3) 2px 2px 6px 1px inset;border-radius: 0.5rem;border: 1px solid #444444;color: #dbdbdb;cursor: pointer;transition: all 0.6s;}
       #menubar_logo:hover {background-color: #222222dd;box-shadow: rgba(0, 0, 0, 0.7) 2px 2px 6px 1px inset;border: 1px solid #444444;color: #999999;transform: scale(0.95);}
       #menubar_logo img {width: 2.6rem;height: 2.6rem;filter: brightness(60%);border-radius: 0.5rem;margin: 0.2rem;transition: all 0.6s;}
       #menubar_logo:hover img {filter: brightness(100%);border-color: #dbdbdb;}
@@ -22,14 +22,14 @@
       #menubar_items a:hover {filter: brightness(200%);}
 
       .headerLandscape {width: 100vw;height: 4rem;position: fixed;top: 0;z-index: 8900;display: grid;grid-template-columns: min-content min-content min-content;grid-template-rows: min-content;}
-      .sortButtonLandscape {height: 3rem;grid-column: 1;grid-row: 1;margin: 0.5rem 0 0.5rem 4rem;padding: 0 0.5rem 0 1rem;white-space: pre;}
+      .sortButtonLandscape {height: 3rem;grid-column: 1;grid-row: 1;margin: 0.5rem 0 0.5rem 4.1rem;padding: 0 0.5rem 0 1rem;white-space: pre;}
       .sortButtonLandscape .sort_arrow {position: relative;top: 0.1rem;}
       .randomButtonLandscape {height: 3rem;grid-column: 2;grid-row: 1;margin: 0.5rem 0 0 0.5rem;padding: 0 1rem;white-space: pre;}
       .searchContainerLandscape {width: auto;height: 4rem;grid-column: 3;grid-row: 1;margin: 0.5rem 0 0 0.5rem;}
       .searchContainerLandscape input {width: auto;height: 3.15rem;margin: 0;padding: 0 0.5rem;background-color: #222222dd;border-radius: 0.5rem;border: 1px solid #444444;box-shadow: rgba(0, 0, 0, 0.7) 2px 2px 6px 1px inset;color: #dbdbdb;cursor: text;}
 
       .headerPortrait {width: 100vw;height: 4rem;position: fixed;top: 0;z-index: 8900;display: grid;grid-template-columns: auto min-content;grid-template-rows: min-content min-content;}
-      .sortButtonPortrait {width: auto;height: 3rem;grid-column: 1 / span 2;grid-row: 1;margin: 0.5rem 0.5rem 0.5rem 4rem;padding: 0 0.5rem 0 1rem;white-space: pre;}
+      .sortButtonPortrait {width: auto;height: 3rem;grid-column: 1 / span 2;grid-row: 1;margin: 0.5rem 0.5rem 0.5rem 4.1rem;padding: 0 0.5rem 0 1rem;white-space: pre;}
       .sortButtonPortrait .sort_arrow {position: relative;top: 0.1rem;}
       .searchContainerPortrait {width: 100%;height: 4rem;grid-column: 1;grid-row: 2;text-align: center;margin: 0;padding: 0;}
       .searchContainerPortrait input {width: calc(100% - 1rem);height: 3.15rem;margin: 0;padding: 0 0.5rem;background-color: #222222dd;border-radius: 0.5rem;border: 1px solid #444444;box-shadow: rgba(0, 0, 0, 0.7) 2px 2px 6px 1px inset;color: #dbdbdb;cursor: text;}
@@ -43,8 +43,8 @@
       .sort_option {width: 15rem;min-height: 3rem;}
 
       #main {width: auto;height: auto;background-color: #00000000;z-index: 100;}
-      .outputLandscape {margin: 4.5rem 0.5rem 1rem 0.5rem;z-index: 100;}
-      .outputPortrait {margin: 8rem 0.5rem 1rem 0.5rem;z-index: 100;}
+      .outputLandscape {margin: 4.25rem 0.5rem 1rem 0.5rem;z-index: 100;}
+      .outputPortrait {margin: 7.75rem 0.5rem 1rem 0.5rem;z-index: 100;}
 
       .group_button {display: none;}
       .group_button.aktiv {display: block;}
@@ -64,70 +64,61 @@
       .movieOverlay {grid-column: 1 / span 2;grid-row: 1 / span 3;z-index: 1000;border-radius: 0.5rem;background: linear-gradient(50deg, #00000000, #00000000, #00000066, #00000000, #00000000, #00000000, #00000099, #00000000);transition: all 0.8s;}
       .movieOverlay:hover {opacity: 0;}
 
-      .overlayWindowLandscape {width: calc(100vw - 5vh);height: calc(100vh - 5vh);position: fixed;z-index: 9100;inset: 0;background-color: #000000ee;overflow: hidden;border-radius: 0.5rem;border: 1px solid #444444;padding: 0;margin: auto;display: grid;grid-template-columns: auto auto;grid-template-rows: auto;}
+
+      .overlayBase {width: 100vw;height: 100vh;background-color: #000000cc;position: fixed;z-index: 9099;inset: 0;}
+
+      .overlayWindowLandscape {width: calc(100vw - 5vh);height: calc(100vh - 5vh);position: fixed;z-index: 9100;inset: 0;background-color: #000000cc;overflow: hidden;border-radius: 0.5rem;border: 1px solid #444444;padding: 0;margin: auto;display: grid;grid-template-columns: auto auto;grid-template-rows: auto;}
       .overlayImageLandscape {grid-column: 1;grid-row: 1;height: calc(100vh - 5vh);}
       .overlayImageLandscape img {width: auto;height: calc(100% - 2rem);border-radius: 0.5rem;margin: 1rem;}
       .overlayContainerLandscape {grid-column: 2;grid-row: 1;background: none;}
-      .overlayInfo1Landscape {width: 100%;height: 100%;grid-column: 2;grid-row: 1;background-color: #00000000;display: grid;grid-template-columns: min-content min-content min-content min-content auto min-content min-content min-content;grid-template-rows: 4rem auto min-content;place-items: center;font-size: 1rem;color: #dbdbdb;}
-      .overlayFSKLandscape {width: 3rem;height: 3rem;grid-column: 1;grid-row: 1;margin: 0 0.5rem;}.overlayFSKLandscape img {width: 100%;height: 100%;}
-      .overlayNumberLandscape {height: 3rem;grid-column: 2;grid-row: 1;padding: 0 1rem;margin: 0 0.5rem;white-space: nowrap;}
+      .overlayInfo1Landscape {width: 100%;height: 100%;grid-column: 2;grid-row: 1;background-color: #00000000;display: grid;grid-template-columns: min-content min-content min-content min-content auto min-content min-content min-content;grid-template-rows: 4rem auto min-content;font-size: 1rem;color: #dbdbdb;place-items: center;}
+      .overlayFSKLandscape {width: 3rem;height: 3rem;grid-column: 1;grid-row: 1;margin: 1rem 0 0 0;} .overlayFSKLandscape img {width: 100%;height: 100%;}
+      .overlayNumberLandscape {height: 3rem;grid-column: 2;grid-row: 1;padding: 0 1rem;margin: 1rem 0 0 1rem;white-space: nowrap;}
       .overlayNumberLandscape svg {position: relative;left: -0.5rem}
-      .overlayYearLandscape {height: 3rem;grid-column: 3;grid-row: 1;padding: 0 1rem;margin: 0 0.5rem;white-space: nowrap;}
+      .overlayYearLandscape {height: 3rem;grid-column: 3;grid-row: 1;padding: 0 1rem;margin: 1rem 0 0 1rem;white-space: nowrap;}
       .overlayYearLandscape svg {position: relative;left: -0.5rem}
-      .overlaySeasonsLandscape {height: 3rem;grid-column: 4;grid-row: 1;padding: 0 1rem;margin: 0 0.5rem;white-space: nowrap;}
+      .overlaySeasonsLandscape {height: 3rem;grid-column: 4;grid-row: 1;padding: 0 1rem;margin: 1rem 0 0 1rem;white-space: nowrap;}
       .overlaySeasonsLandscape svg {position: relative;left: -0.5rem}
       .spacer1Landscape {grid-column: 5;grid-row: 1;}
-      .overlayDownloadImageLandscape {height: 3rem;grid-column: 6;grid-row: 1;padding: 0 1rem;margin: 0 0.5rem;white-space: nowrap;}
+      .overlayDownloadImageLandscape {height: 3rem;grid-column: 6;grid-row: 1;padding: 0 1rem;margin: 1rem 1rem 0 0;white-space: nowrap;}
       .overlayDownloadImageLandscape svg {position: relative;left: -0.5rem}
-      .overlayDownloadNFOLandscape {height: 3rem;grid-column: 7;grid-row: 1;padding: 0 1rem;margin: 0 0.5rem;white-space: nowrap;}
+      .overlayDownloadNFOLandscape {height: 3rem;grid-column: 7;grid-row: 1;padding: 0 1rem;margin: 1rem 1rem 0 0;white-space: nowrap;}
       .overlayDownloadNFOLandscape svg {position: relative;left: -0.5rem}
-      .exitButtonLandscape {width: 3rem;height: 3rem;grid-column: 8;grid-row: 1;padding: 0;margin: 0 1rem 0 0.5rem;white-space: nowrap;}
+      .exitButtonLandscape {width: 3rem;height: 3rem;grid-column: 8;grid-row: 1;padding: 0;margin: 1rem 1rem 0 0;white-space: nowrap;}
       .overlayTitleLandscape {grid-column: 1 / span 8;grid-row: 2;padding: 0.5rem 1rem;font-size: 4rem;font-style: oblique;font-weight: bolder;text-align: center;line-height: normal;}
-      .overlayPlotLandscape {grid-column: 1 / span 8;grid-row: 3;padding: 1rem;margin: 1rem 1rem 1rem 0.5rem;text-align: justify;}
+      .overlayPlotLandscape {grid-column: 1 / span 8;grid-row: 3;padding: 1rem;margin: 1rem 1rem 1rem 0;text-align: justify;}
 
       @media (orientation: landscape) and (max-height: 500px) {
-        .overlayInfo1Landscape {grid-template-rows: 4rem auto min-content;}
-        .overlayFSKLandscape {width: 2rem;height: 2rem;}
-        .overlayNumberLandscape, .overlayYearLandscape, .overlaySeasonsLandscape, .overlayDownloadImageLandscape, .overlayDownloadNFOLandscape {
-        height: 2rem;
-        padding: 0 0.2rem;
-        margin: 0 0.2rem;
-        font-size: 0.6rem;
-    }
-    .overlayNumberLandscape svg,.overlayYearLandscape svg,.overlaySeasonsLandscape svg,.overlayDownloadImageLandscape svg,.overlayDownloadNFOLandscape svg {width: 1rem;height: 1rem;position: relative;left: -0.1rem}
-
-
-    .exitButtonLandscape {
-        width: 2rem;
-        height: 2rem;
-        margin: 0 0.5rem;
-    }
-
-    .overlayTitleLandscape {
-        font-size: clamp(1.25rem, 4vh, 2rem);
-        padding: 0.2rem;
-    }
-
-    .overlayPlotLandscape {
-        font-size: 0.8rem;
-        line-height: 1.35;
-        margin: 0.2rem;
-        padding: 0.5rem;
-    }
-}
+        .overlayImageLandscape img {width: auto;height: calc(100% - 1rem);border-radius: 0.5rem;margin: 0.5rem;}
+        .overlayInfo1Landscape {grid-template-rows: 3rem auto min-content;font-size: 0.6rem;}
+        .overlayFSKLandscape {width: 2rem;height: 2rem;margin: 0;} .overlayFSKLandscape img {width: 100%;height: 100%;}
+        .overlayNumberLandscape {height: 2rem;padding: 0 0.25rem;margin: 0 0 0 0.5rem;}
+        .overlayNumberLandscape svg {width: 1rem;height: 1rem;position: relative;left: -0.1rem}
+        .overlayYearLandscape {height: 2rem;padding: 0 0.25rem;margin: 0 0 0 0.5rem;}
+        .overlayYearLandscape svg {width: 1rem;height: 1rem;position: relative;left: -0.1rem}
+        .overlaySeasonsLandscape {height: 2rem;padding: 0 0.25rem;margin: 0 0 0 0.5rem;}
+        .overlaySeasonsLandscape svg {width: 1rem;height: 1rem;position: relative;left: -0.1rem}
+        .overlayDownloadImageLandscape {height: 2rem;padding: 0 0.25rem;margin: 0 0.5rem 0 0;}
+        .overlayDownloadImageLandscape svg {width: 1rem;height: 1rem;position: relative;left: -0.1rem}
+        .overlayDownloadNFOLandscape {height: 2rem;padding: 0 0.25rem;margin: 0 0.5rem 0 0;}
+        .overlayDownloadNFOLandscape svg {width: 1rem;height: 1rem;position: relative;left: -0.1rem}
+        .exitButtonLandscape {width: 2rem;height: 2rem;margin: 0 0.5rem 0 0;}
+        .overlayTitleLandscape {font-size: clamp(1.5rem, 4vh, 2rem);padding: 0.2rem;}
+        .overlayPlotLandscape {font-size: 0.7rem;line-height: 1rem;margin: 0 0.5rem 0.5rem 0;padding: 0.5rem;}
+      }
       
       .overlayWindowPortrait {width: 100vw;height: 100vh;position: fixed;inset: 0;z-index: 9100;background-color: #000000cc;overflow: hidden;padding: 0;margin: 0;display: grid;grid-template-columns: auto;grid-template-rows: auto;}
       .overlayImagePortrait {grid-column: 1;grid-row: 1;width: 100vw;}
       .overlayImagePortrait img {width: 100%;height: auto;}
       .overlayContainerPortrait {width: 100vw;height: 100vh;grid-column: 1;grid-row: 1;background: linear-gradient(180deg, #000000cc, #000000cc, #000000ff, #000000ff, #000000ff);display: grid;grid-template-columns: auto;grid-template-rows: min-content auto min-content;place-items: center;}
       .overlayInfo1Portrait {width: 100vw;height: min-content;grid-column: 1;grid-row: 1;background-color: #00000000;display: grid;grid-template-columns: min-content min-content auto min-content;grid-template-rows: 4rem auto min-content;place-items: center;font-size: 1rem;color: #dbdbdb;}
-      .overlayDownloadImagePortrait {height: 3rem;grid-column: 1;grid-row: 1;padding: 0 1rem;margin: 0 0.5rem;white-space: nowrap;}
+      .overlayDownloadImagePortrait {height: 3rem;grid-column: 1;grid-row: 1;padding: 0 1rem;margin: 0 0 0 0.5rem;white-space: nowrap;}
       .overlayDownloadImagePortrait svg {position: relative;left: -0.5rem}
-      .overlayDownloadNFOPortrait {height: 3rem;grid-column: 2;grid-row: 1;padding: 0 1rem;margin: 0 0.5rem;white-space: nowrap;}
+      .overlayDownloadNFOPortrait {height: 3rem;grid-column: 2;grid-row: 1;padding: 0 1rem;margin: 0 0 0 0.5rem;white-space: nowrap;}
       .overlayDownloadNFOPortrait svg {position: relative;left: -0.5rem}
       .spacer1Portrait {grid-column: 3;grid-row: 1;}
-      .exitButtonPortrait {width: 3rem;height: 3rem;margin: 0 0.5rem;grid-column: 4;grid-row: 1;white-space: nowrap;}
-      .overlayTitlePortrait {grid-column: 1;grid-row: 2;padding: 0.5rem 1rem;font-size: 3rem;font-style: oblique;font-weight: bolder;text-align: center;line-height: normal;}
+      .exitButtonPortrait {width: 3rem;height: 3rem;margin: 0 0.5rem 0 0;grid-column: 4;grid-row: 1;white-space: nowrap;}
+      .overlayTitlePortrait {grid-column: 1;grid-row: 2;padding: 0.5rem 1rem;font-size: 3rem;font-style: oblique;font-weight: bolder;text-align: center;line-height: normal;word-break: break-word;hyphens: auto;}
       .overlayInfo2Portrait {width: 100vw;height: min-content;grid-column: 1;grid-row: 3;background-color: #00000000;display: grid;grid-template-columns: min-content min-content min-content auto min-content;grid-template-rows: 4rem min-content;place-items: center;font-size: 1rem;color: #dbdbdb;}
       .overlayNumberPortrait {height: 3rem;grid-column: 1;grid-row: 1;margin: 0 0 0 0.5rem;padding: 0 0.5rem;white-space: nowrap;}
       .overlayNumberPortrait svg {position: relative;left: -0.1rem}
@@ -138,7 +129,7 @@
       .spacer2Portrait {grid-column: 4;grid-row: 1;}
       .overlayFSKPortrait {width: 3rem;height: 3rem;grid-column: 5;grid-row: 1;margin: 0.5rem;}
       .overlayFSKPortrait img {width: 100%;height: 100%;}
-      .overlayPlotPortrait {grid-column: 1 / span 5;grid-row: 2;margin: 0 0.5rem 0.5rem 0.5rem;padding: 0.5rem;text-align: justify;line-height: normal;font-size: 0.7rem;font-family: Verdana, Geneva, Tahoma, sans-serif;}
+      .overlayPlotPortrait {grid-column: 1 / span 5;grid-row: 2;margin: 0 0.5rem 0.5rem 0.5rem;padding: 0.5rem;text-align: justify;line-height: 1rem;font-size: 0.7rem;font-family: Verdana, Geneva, Tahoma, sans-serif;}
     </style>
   </head>
   <body onload="init_menubar();windowModeCheck();load_moviebase();">
@@ -167,11 +158,10 @@
     }
     
   }
+  
   const header = document.getElementById('header');
 
-  let current_data = [];
-  let current_group = 'Name';
-  let current_sort_direction = 'asc';
+  let current_data = [];let current_group = 'Name';let current_sort_direction = 'asc';
 
   async function load_moviebase() {
     try {const response = await fetch('series.json');if (!response.ok) throw new Error('series.json konnte nicht geladen werden.');current_data = await response.json();load_navigation();load_table_data(current_data);}
@@ -379,6 +369,7 @@
   }
 
   function createOverlay(movie) {
+    const overlayBase = document.createElement('div');
     const overlayWindow = document.createElement('div');
     const overlayImage = document.createElement('div');
     const overlayContainer = document.createElement('div');
@@ -394,6 +385,7 @@
     const overlayTitle = document.createElement('div');
     const overlayPlot = document.createElement('div');
     
+    overlayBase.className = 'overlayBase';
     if (windowMode === 'landscape') {
       overlayWindow.className = 'overlayWindowLandscape';
         overlayImage.className = 'overlayImageLandscape';
@@ -437,7 +429,7 @@
             overlayInfo1.appendChild(overlayPlot);
           overlayContainer.appendChild(overlayInfo1);
         overlayWindow.appendChild(overlayContainer);
-      document.body.appendChild(overlayWindow);
+      overlayBase.appendChild(overlayWindow);
     }
 
     else {
@@ -491,12 +483,13 @@
           overlayContainer.appendChild(overlayInfo2);
 
         overlayWindow.appendChild(overlayContainer);
-      document.body.appendChild(overlayWindow);
+      overlayBase.appendChild(overlayWindow);
     }
 
+    document.body.appendChild(overlayBase);
     document.body.style = 'overflow: hidden;';
   }
-  function removeOverlay() {document.querySelector('.overlayWindowLandscape')?.remove();document.querySelector('.overlayWindowPortrait')?.remove();document.body.style = 'overflow: scroll;';}
+  function removeOverlay() {document.querySelector('.overlayBase')?.remove();document.querySelector('.overlayWindowLandscape')?.remove();document.querySelector('.overlayWindowPortrait')?.remove();document.body.style = 'overflow: scroll;';}
 
   function downloadImage(movie) {downloadFile(movie.poster, `${movie.filename}-poster.jpg`);}
   function downloadNFO(movie) {downloadFile(`Movies/${movie.folder}/${movie.filename}.nfo`, `${movie.filename}.nfo`);}
