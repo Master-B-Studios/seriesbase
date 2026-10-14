@@ -6,13 +6,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"></meta>
     <link rel="icon" type="image/x-icon" href="../homepage/images/MB_Icon_02.svg"></link>
     <style>
-      body {background-color: #000000;margin: 0;padding: 0;background-image: url("../homepage/assets/wallpaper_00.jpg");background-repeat: repeat, no-repeat;background-size: auto, 100% 100%;background-attachment: fixed;overflow-y: scroll;color: #dbdbdb;font-size: 1rem;font-family: Arial, Helvetica, sans-serif;}
-      .mb_button {display: flex;align-items: center;justify-content: center;background-color: #000000cc;box-shadow: rgba(255, 255, 255, 0.3) 2px 2px 6px 1px inset;border-radius: 0.5rem;border: 1px solid #444444;color: #dbdbdb;cursor: pointer;transition: all 0.6s;} .mb_button:hover {background-color: #222222dd;box-shadow: rgba(0, 0, 0, 0.7) 2px 2px 6px 1px inset;border: 1px solid #444444;color: #999999;transform: scale(0.95);} .mb_button:active {background-color: #222222dd;box-shadow: rgba(0, 0, 0, 0.7) 2px 2px 6px 1px inset;border: 1px solid #444444;color: #999999;transform: scale(0.95);}
-      .mb_text {display: flex;align-items: center;justify-content: center;background-color: #222222dd;box-shadow: rgba(0, 0, 0, 0.7) 2px 2px 6px 1px inset;border-radius: 0.5rem;border: 1px solid #444444;color: #999999;cursor: default;transition: all 0.6s;} .mb_input {display: flex;align-items: center;justify-content: center;background-color: #222222cc;box-shadow: rgba(0, 0, 0, 0.7) 2px 2px 6px 1px inset;border-radius: 0.5rem;border: 1px solid #444444;color: #999999;cursor: text;transition: all 0.6s;}
+      body {background-color: #000000;margin: 0;padding: 0;background-image: url("../homepage/assets/wallpaper_00.jpg");background-repeat: repeat, no-repeat;background-size: auto, 100% 100%;background-attachment: fixed;overflow-y: scroll;color: #dbdbdb;font-size: 1rem;font-family: Arial, Helvetica, sans-serif;-webkit-tap-highlight-color: transparent;}
+      .mb_button {display: flex;align-items: center;justify-content: center;background-color: #222222;box-shadow: rgba(255, 255, 255, 0.3) 2px 2px 6px 1px inset;border-radius: 0.5rem;border: 1px solid #444444;color: #dbdbdb;cursor: pointer;transition: all 0.6s;}
+      .mb_button:focus {background-color: #222222;box-shadow: rgba(0, 0, 0, 0.7) 2px 2px 6px 1px inset;border: 1px solid #444444;color: #999999;transform: scale(0.95);} .mb_button:active {background-color: #222222dd;box-shadow: rgba(0, 0, 0, 0.7) 2px 2px 6px 1px inset;border: 1px solid #444444;color: #999999;transform: scale(0.95);}
+      @media (hover: hover) and (pointer: fine) {.mb_button:hover {background-color: #222222;box-shadow: rgba(0, 0, 0, 0.7) 2px 2px 6px 1px inset;border: 1px solid #444444;color: #999999;transform: scale(0.95);} .mb_button:active {background-color: #222222dd;box-shadow: rgba(0, 0, 0, 0.7) 2px 2px 6px 1px inset;border: 1px solid #444444;color: #999999;transform: scale(0.95);}}
+      .mb_text {display: flex;align-items: center;justify-content: center;background-color: #222222;box-shadow: rgba(0, 0, 0, 0.7) 2px 2px 6px 1px inset;border-radius: 0.5rem;border: 1px solid #444444;color: #999999;cursor: default;transition: all 0.6s;} .mb_input {display: flex;align-items: center;justify-content: center;background-color: #222222cc;box-shadow: rgba(0, 0, 0, 0.7) 2px 2px 6px 1px inset;border-radius: 0.5rem;border: 1px solid #444444;color: #999999;cursor: text;transition: all 0.6s;}
 
       #menubar {width: auto;height: 4rem;position: fixed;top: 0;z-index: 9000;display: block;display: flex;}
       #menubar div {width: auto;height: auto;display: grid;grid-template-columns: min-content;grid-template-rows: min-content;}
-      #menubar_logo {width: 4rem;height: 4rem;grid-column: 1; grid-row: 1;margin: 0.5rem 0 0 0.5rem;background-color: #000000cc;box-shadow: rgba(255, 255, 255, 0.3) 2px 2px 6px 1px inset;border-radius: 0.5rem;border: 1px solid #444444;color: #dbdbdb;cursor: pointer;transition: all 0.6s;}
+      #menubar_logo {width: 4rem;height: 4rem;grid-column: 1; grid-row: 1;margin: 0.5rem 0 0 0.5rem;background-color: #222222;box-shadow: rgba(255, 255, 255, 0.3) 2px 2px 6px 1px inset;border-radius: 0.5rem;border: 1px solid #444444;color: #dbdbdb;cursor: pointer;transition: all 0.6s;}
       #menubar_logo:hover {background-color: #222222dd;box-shadow: rgba(0, 0, 0, 0.7) 2px 2px 6px 1px inset;border: 1px solid #444444;color: #999999;transform: scale(0.95);}
       #menubar_logo img {width: 2.6rem;height: 2.6rem;filter: brightness(60%);border-radius: 0.5rem;margin: 0.2rem;transition: all 0.6s;}
       #menubar_logo:hover img {filter: brightness(100%);border-color: #dbdbdb;}
@@ -26,15 +28,15 @@
       .sortButtonLandscape .sort_arrow {position: relative;top: 0.1rem;}
       .randomButtonLandscape {height: 3rem;grid-column: 2;grid-row: 1;margin: 0.5rem 0 0 0.5rem;padding: 0 1rem;white-space: pre;}
       .searchContainerLandscape {width: auto;height: 4rem;grid-column: 3;grid-row: 1;margin: 0.5rem 0 0 0.5rem;}
-      .searchContainerLandscape input {width: auto;height: 3.15rem;margin: 0;padding: 0 0.5rem;background-color: #222222dd;border-radius: 0.5rem;border: 1px solid #444444;box-shadow: rgba(0, 0, 0, 0.7) 2px 2px 6px 1px inset;color: #dbdbdb;cursor: text;}
+      .searchContainerLandscape input {width: auto;height: 3.15rem;margin: 0;padding: 0 0.5rem;background-color: #222222;border-radius: 0.5rem;border: 1px solid #444444;box-shadow: rgba(0, 0, 0, 0.7) 2px 2px 6px 1px inset;color: #dbdbdb;cursor: text;}
 
       .headerPortrait {width: 100vw;height: 4rem;position: fixed;top: 0;z-index: 8900;display: grid;grid-template-columns: auto min-content;grid-template-rows: min-content min-content;}
       .sortButtonPortrait {width: auto;height: 3rem;grid-column: 1 / span 2;grid-row: 1;margin: 0.5rem 0.5rem 0.5rem 4.1rem;padding: 0 0.5rem 0 1rem;white-space: pre;}
       .sortButtonPortrait .sort_arrow {position: relative;top: 0.1rem;}
       .searchContainerPortrait {width: 100%;height: 4rem;grid-column: 1;grid-row: 2;text-align: center;margin: 0;padding: 0;}
-      .searchContainerPortrait input {width: calc(100% - 1rem);height: 3.15rem;margin: 0;padding: 0 0.5rem;background-color: #222222dd;border-radius: 0.5rem;border: 1px solid #444444;box-shadow: rgba(0, 0, 0, 0.7) 2px 2px 6px 1px inset;color: #dbdbdb;cursor: text;}
+      .searchContainerPortrait input {width: calc(100% - 1rem);height: 3.15rem;margin: 0;padding: 0 0.5rem;background-color: #222222;border-radius: 0.5rem;border: 1px solid #444444;box-shadow: rgba(0, 0, 0, 0.7) 2px 2px 6px 1px inset;color: #dbdbdb;cursor: text;}
       .randomButtonPortrait {width: auto;height: 3rem;grid-column: 2;grid-row: 2;margin: 0 0.5rem 0 0;padding: 0 1rem;white-space: pre;}
-      #search_container input:focus {background-color: #222222dd;outline: none;border: 1px solid #666666;}
+      #search_container input:focus {background-color: #222222;outline: none;border: 1px solid #666666;}
       #search_container input::-webkit-search-cancel-button {filter: invert(50%) brightness(150%);cursor: pointer;}
 
       #sort_overlay {display: none;position: fixed;inset: 0;z-index: 9100;background-color: #000000cc;align-items: center;justify-content: center;padding: 1rem;box-sizing: border-box;}
@@ -48,9 +50,8 @@
 
       .group_button {display: none;}
       .group_button.aktiv {display: block;}
-
-      .randomLandscape .cardContainer {grid-template-columns: repeat(auto-fill, minmax(12rem, 12.5rem));gap: 1rem;}
-      .randomPortrait .cardContainer {grid-template-columns: minmax(12rem, auto);justify-content: center;}
+      @media (orientation: portrait) {#group_single_Zufall .cardContainer {grid-template-columns: 70vw;grid-template-rows: 100%;justify-content: center;} #group_single_Zufall .cardContainer .movieCard {margin: 15vw auto;}}
+      
       
       .cardContainer {display: grid;grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));gap: 0.5em;}
       .movieCard {color: #ffffff;width: auto;height: auto;display: grid;grid-template-columns: auto auto;grid-template-rows: auto;background-color: #111111;border-radius: 0.5rem;border: 1px solid #444444;position: relative;top: 0;margin: 0;cursor: pointer;transition: top 0.6s;}
@@ -200,8 +201,7 @@
       const random_index = Math.floor(Math.random() * current_data.length);
       const random_movie = current_data[random_index];
       load_table_data([random_movie], 'Zufall');
-      const blurContainer = document.getElementById('output');
-      output.focus();
+      randomButton.blur();
     };
 
     const sort_overlay = document.createElement('div');
