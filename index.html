@@ -68,7 +68,7 @@
 
       .overlayBase {width: 100vw;height: 100vh;background-color: #000000cc;position: fixed;z-index: 9099;inset: 0;}
 
-      .overlayWindowLandscape {width: calc(100vw - 5vh);height: calc(100vh - 5vh);position: fixed;z-index: 9100;inset: 0;background-color: #000000cc;overflow: hidden;border-radius: 0.5rem;border: 1px solid #444444;padding: 0;margin: auto;display: grid;grid-template-columns: auto auto;grid-template-rows: auto;}
+      .overlayWindowLandscape {width: calc(100vw - 5vh);height: calc(100vh - 5vh);position: fixed;z-index: 9100;inset: 0;background-color: #00000099;overflow: hidden;border-radius: 0.5rem;border: 1px solid #444444;padding: 0;margin: auto;display: grid;grid-template-columns: auto auto;grid-template-rows: auto;}
       .overlayImageLandscape {grid-column: 1;grid-row: 1;height: calc(100vh - 5vh);}
       .overlayImageLandscape img {width: auto;height: calc(100% - 2rem);border-radius: 0.5rem;margin: 1rem;}
       .overlayContainerLandscape {grid-column: 2;grid-row: 1;background: none;}
@@ -157,7 +157,6 @@
       document.querySelector('.searchContainerLandscape').className = 'searchContainerPortrait';
       document.querySelector('.outputLandscape').className = 'outputPortrait';
     }
-    
   }
   
   const header = document.getElementById('header');
