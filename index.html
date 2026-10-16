@@ -18,7 +18,7 @@
       #menubar_logo:hover {background-color: #222222dd;box-shadow: rgba(0, 0, 0, 0.7) 2px 2px 6px 1px inset;border: 1px solid #444444;color: #999999;transform: scale(0.95);}
       #menubar_logo img {width: 2.6rem;height: 2.6rem;filter: brightness(60%);border-radius: 0.5rem;margin: 0.2rem;transition: all 0.6s;}
       #menubar_logo:hover img {filter: brightness(100%);border-color: #dbdbdb;}
-      #menubar_items {width: auto;height: 4rem;grid-column: 1; grid-row: 1;margin: 0.5rem;border-radius: 0.5rem;border: 1px solid #444444;background-color: #222222dd;cursor: pointer;}
+      #menubar_items {width: auto;height: 4rem;grid-column: 1; grid-row: 1;margin: 0.5rem;border-radius: 0.5rem;border: 1px solid #666666;background-color: #222222;box-shadow: rgba(0, 0, 0, 0.7) 2px 2px 6px 1px inset;cursor: pointer;}
       #menubar_items a {width: 2.6rem;height: 2.6rem;text-align: center;color: #dbdbdb;text-decoration: none;filter: brightness(60%);margin: 0.2rem 0.5rem;transition: all 0.6s;}
       #menubar_items a img {width: 2.6rem;height: 2.6rem;}
       #menubar_items a:hover {filter: brightness(200%);}
@@ -139,23 +139,38 @@
   </body>
 </html>
 <script>
-  function init_menubar() {const menubar = document.getElementById('menubar');const menubar_div = document.createElement('div');menubar_div.id = 'menubar_div';const menubar_logo = document.createElement('div');menubar_logo.id = 'menubar_logo';menubar_logo.style = 'display: flex;';menubar_logo.onclick = () => {toggle_menubar(menubar_logo);};const menubar_logo_img = document.createElement('img');menubar_logo_img.src = '../homepage/assets/mb_icon0.svg';menubar_logo.appendChild(menubar_logo_img);menubar_div.appendChild(menubar_logo);const menubar_items = document.createElement('div');menubar_items.id = 'menubar_items';menubar_items.style = 'display: none;';const menubar_close = document.createElement('a');menubar_close.id = 'menubar_close';menubar_close.onclick = () => {toggle_menubar(menubar_close);};const menubar_close_img = document.createElement('img');menubar_close_img.src = '../homepage/assets/icon_close_00.png';menubar_close.appendChild(menubar_close_img);menubar_items.appendChild(menubar_close);const menubar_home = document.createElement('a');menubar_home.id = 'menubar_home';menubar_home.href = '../homepage/index.html';const menubar_home_img = document.createElement('img');menubar_home_img.src = '../homepage/assets/mb_icon0.svg';menubar_home.appendChild(menubar_home_img);menubar_items.appendChild(menubar_home);const menubar_tools = document.createElement('a');menubar_tools.id = 'menubar_tools';menubar_tools.href = '../homepage/index.html';const menubar_tools_img = document.createElement('img');menubar_tools_img.src = '../homepage/assets/icon_tools_00.png';menubar_tools.appendChild(menubar_tools_img);menubar_items.appendChild(menubar_tools);const menubar_games = document.createElement('a');menubar_games.id = 'menubar_games';menubar_games.href = '../homepage/index.html';const menubar_games_img = document.createElement('img');menubar_games_img.src = '../homepage/assets/icon_controller_00.png';menubar_games.appendChild(menubar_games_img);menubar_items.appendChild(menubar_games);const menubar_cooking = document.createElement('a');menubar_cooking.id = 'menubar_cooking';menubar_cooking.href = '../homepage/index.html';const menubar_cooking_img = document.createElement('img');menubar_cooking_img.src = '../cookingcorner/icons/icon0.png';menubar_cooking.appendChild(menubar_cooking_img);menubar_items.appendChild(menubar_cooking);menubar_div.appendChild(menubar_items);menubar.appendChild(menubar_div);document.addEventListener('click', (event) => {const menubar = document.getElementById('menubar');const menubar_logo = document.getElementById('menubar_logo');const menubar_items = document.getElementById('menubar_items');if (!menubar.contains(event.target)) {menubar_logo.style.display = 'flex';menubar_items.style.display = 'none';}});}
-  function toggle_menubar(obj) {const menubar_logo = document.getElementById('menubar_logo');const menubar_items = document.getElementById('menubar_items');let visible = '';if (menubar_logo.style.display === 'flex' && obj.id == menubar_logo.id) {menubar_logo.style.display = 'none';menubar_items.style.display = 'flex';} else {menubar_logo.style.display = 'flex';menubar_items.style.display = 'none';}}
   let windowMode = '';window.addEventListener('resize', () => {windowModeCheck();windowModeReorder();}); function windowModeCheck() {if (window.innerWidth >= window.innerHeight) {windowMode = 'landscape';} else {windowMode = 'portrait';}}
+  function init_menubar() {
+    const menubar = document.getElementById('menubar');const menubar_div = document.createElement('div');menubar_div.id = 'menubar_div';const menubar_logo = document.createElement('div');menubar_logo.id = 'menubar_logo';menubar_logo.style = 'display: flex;';menubar_logo.onclick = () => {toggle_menubar(menubar_logo);};const menubar_logo_img = document.createElement('img');menubar_logo_img.src = '../homepage/assets/mb_icon0.svg';menubar_logo.appendChild(menubar_logo_img);menubar_div.appendChild(menubar_logo);const menubar_items = document.createElement('div');menubar_items.id = 'menubar_items';menubar_items.style = 'display: none;';
+    const menubarClose = document.createElement('a');menubarClose.onclick = () => {toggle_menubar(menubarClose);};const menubarCloseImg = document.createElement('img');menubarCloseImg.src = '../homepage/assets/icon_close_00.png';menubarClose.appendChild(menubarCloseImg);menubar_items.appendChild(menubarClose);
+    const menubar_home = document.createElement('a');menubar_home.id = 'menubar_home';menubar_home.href = '../homepage/index.html';const menubar_home_img = document.createElement('img');menubar_home_img.src = '../homepage/assets/mb_icon0.svg';menubar_home.appendChild(menubar_home_img);menubar_items.appendChild(menubar_home);
+    const menubarMovieBase = document.createElement('a');menubarMovieBase.href = '../moviebase/index.html';const menubarMovieBaseImg = document.createElement('img');menubarMovieBaseImg.src = '../moviebase/icons/icon0.png';menubarMovieBase.appendChild(menubarMovieBaseImg);menubar_items.appendChild(menubarMovieBase);
+    const menubarSeriesBase = document.createElement('a');menubarSeriesBase.href = 'index.html';const menubarSeriesBaseImg = document.createElement('img');menubarSeriesBaseImg.src = 'icons/icon0.png';menubarSeriesBase.appendChild(menubarSeriesBaseImg);menubar_items.appendChild(menubarSeriesBase);
+    const menubar_games = document.createElement('a');menubar_games.id = 'menubar_games';menubar_games.href = '../homepage/index.html';const menubar_games_img = document.createElement('img');menubar_games_img.src = '../homepage/assets/icon_controller_00.png';menubar_games.appendChild(menubar_games_img);
+    const menubarBooklets = document.createElement('a');menubarBooklets.href = '../homepage/index.html';const menubarBookletsImg = document.createElement('img');menubarBookletsImg.src = '../homepage/assets/icon_booklets_00.png';menubarBooklets.appendChild(menubarBookletsImg);menubar_items.appendChild(menubarBooklets);
+    const menubarSongBase = document.createElement('a');menubarSongBase.href = '../homepage/index.html';const menubarSongBaseImg = document.createElement('img');menubarSongBaseImg.src = '../homepage/assets/icon_books_00.png';menubarSongBase.appendChild(menubarSongBaseImg);menubar_items.appendChild(menubarSongBase);
+    const menubar_tools = document.createElement('a');menubar_tools.id = 'menubar_tools';menubar_tools.href = '../homepage/index.html';const menubar_tools_img = document.createElement('img');menubar_tools_img.src = '../homepage/assets/icon_tools_00.png';menubar_tools.appendChild(menubar_tools_img);
+    const menubar_cooking = document.createElement('a');menubar_cooking.id = 'menubar_cooking';menubar_cooking.href = '../homepage/index.html';const menubar_cooking_img = document.createElement('img');menubar_cooking_img.src = '../cookingcorner/icons/icon0.png';menubar_cooking.appendChild(menubar_cooking_img);
+    if (windowMode === 'landscape') {menubar_items.appendChild(menubar_games);menubar_items.appendChild(menubar_tools);menubar_items.appendChild(menubar_cooking);}
+    menubar_div.appendChild(menubar_items);menubar.appendChild(menubar_div);document.addEventListener('click', (event) => {const menubar = document.getElementById('menubar');const menubar_logo = document.getElementById('menubar_logo');const menubar_items = document.getElementById('menubar_items');if (!menubar.contains(event.target)) {menubar_logo.style.display = 'flex';menubar_items.style.display = 'none';}});
+  }
+  function toggle_menubar(obj) {const menubar_logo = document.getElementById('menubar_logo');const menubar_items = document.getElementById('menubar_items');let visible = '';if (menubar_logo.style.display === 'flex' && obj.id == menubar_logo.id) {menubar_logo.style.display = 'none';menubar_items.style.display = 'flex';} else {menubar_logo.style.display = 'flex';menubar_items.style.display = 'none';}}
+  
   function windowModeReorder() {
+    const menubar = document.getElementById('menubar');if (document.querySelector("#menubar_div")) {menubar.removeChild(document.querySelector("#menubar_div"));init_menubar();}
     if (windowMode === 'landscape') {
-      document.querySelector('.headerPortrait').className = 'headerLandscape';
-      document.querySelector('.sortButtonPortrait').className = 'sortButtonLandscape mb_button';
-      document.querySelector('.randomButtonPortrait').className = 'randomButtonLandscape mb_button';
-      document.querySelector('.searchContainerPortrait').className = 'searchContainerLandscape';
-      document.querySelector('.outputPortrait').className = 'outputLandscape';
+      if (document.querySelector('.headerPortrait')) {document.querySelector('.headerPortrait').className = 'headerLandscape';}
+      if (document.querySelector('.sortButtonPortrait')) {document.querySelector('.sortButtonPortrait').className = 'sortButtonLandscape mb_button';}
+      if (document.querySelector('.randomButtonPortrait')) {document.querySelector('.randomButtonPortrait').className = 'randomButtonLandscape mb_button';}
+      if (document.querySelector('.searchContainerPortrait')) {document.querySelector('.searchContainerPortrait').className = 'searchContainerLandscape';}
+      if (document.querySelector('.outputPortrait')) {document.querySelector('.outputPortrait').className = 'outputLandscape';}
     }
     else {
-      document.querySelector('.headerLandscape').className = 'headerPortrait';
-      document.querySelector('.sortButtonLandscape').className = 'sortButtonPortrait mb_button';
-      document.querySelector('.randomButtonLandscape').className = 'randomButtonPortrait mb_button';
-      document.querySelector('.searchContainerLandscape').className = 'searchContainerPortrait';
-      document.querySelector('.outputLandscape').className = 'outputPortrait';
+      if (document.querySelector('.headerLandscape')) {document.querySelector('.headerLandscape').className = 'headerPortrait';}
+      if (document.querySelector('.sortButtonLandscape')) {document.querySelector('.sortButtonLandscape').className = 'sortButtonPortrait mb_button';}
+      if (document.querySelector('.randomButtonLandscape')) {document.querySelector('.randomButtonLandscape').className = 'randomButtonPortrait mb_button';}
+      if (document.querySelector('.searchContainerLandscape')) {document.querySelector('.searchContainerLandscape').className = 'searchContainerPortrait';}
+      if (document.querySelector('.outputLandscape')) {document.querySelector('.outputLandscape').className = 'outputPortrait';}
     }
   }
   
