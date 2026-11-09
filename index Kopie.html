@@ -1,0 +1,519 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <title>MB Series-Base</title>
+    <meta charset="utf-8"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"></meta>
+    <link rel="icon" type="image/x-icon" href="../homepage/images/MB_Icon_02.svg"></link>
+    <style>
+      body {background-color: #000000;margin: 0;padding: 0;background-image: url("../homepage/assets/wallpaper_00.jpg");background-repeat: repeat, no-repeat;background-size: auto, 100% 100%;background-attachment: fixed;overflow-y: scroll;color: #dbdbdb;font-size: 1rem;font-family: Arial, Helvetica, sans-serif;-webkit-tap-highlight-color: transparent;}
+      .mb_button {display: flex;align-items: center;justify-content: center;background-color: #222222;box-shadow: rgba(255, 255, 255, 0.3) 2px 2px 6px 1px inset;border-radius: 0.5rem;border: 1px solid #444444;color: #dbdbdb;cursor: pointer;transition: all 0.6s;}
+      .mb_button:focus {background-color: #222222;box-shadow: rgba(0, 0, 0, 0.7) 2px 2px 6px 1px inset;border: 1px solid #444444;color: #999999;transform: scale(0.95);} .mb_button:active {background-color: #222222dd;box-shadow: rgba(0, 0, 0, 0.7) 2px 2px 6px 1px inset;border: 1px solid #444444;color: #999999;transform: scale(0.95);}
+      @media (hover: hover) and (pointer: fine) {.mb_button:hover {background-color: #222222;box-shadow: rgba(0, 0, 0, 0.7) 2px 2px 6px 1px inset;border: 1px solid #444444;color: #999999;transform: scale(0.95);} .mb_button:active {background-color: #222222dd;box-shadow: rgba(0, 0, 0, 0.7) 2px 2px 6px 1px inset;border: 1px solid #444444;color: #999999;transform: scale(0.95);}}
+      .mb_text {display: flex;align-items: center;justify-content: center;background-color: #222222;box-shadow: rgba(0, 0, 0, 0.7) 2px 2px 6px 1px inset;border-radius: 0.5rem;border: 1px solid #444444;color: #999999;cursor: default;transition: all 0.6s;} .mb_input {display: flex;align-items: center;justify-content: center;background-color: #222222cc;box-shadow: rgba(0, 0, 0, 0.7) 2px 2px 6px 1px inset;border-radius: 0.5rem;border: 1px solid #444444;color: #999999;cursor: text;transition: all 0.6s;}
+
+      #menubar {width: auto;height: 4rem;position: fixed;top: 0;z-index: 9000;display: block;display: flex;}
+      #menubar div {width: auto;height: auto;display: grid;grid-template-columns: min-content;grid-template-rows: min-content;}
+      #menubar_logo {width: 4rem;height: 4rem;grid-column: 1; grid-row: 1;margin: 0.5rem 0 0 0.5rem;background-color: #222222;box-shadow: rgba(255, 255, 255, 0.3) 2px 2px 6px 1px inset;border-radius: 0.5rem;border: 1px solid #444444;color: #dbdbdb;cursor: pointer;transition: all 0.6s;}
+      #menubar_logo:hover {background-color: #222222dd;box-shadow: rgba(0, 0, 0, 0.7) 2px 2px 6px 1px inset;border: 1px solid #444444;color: #999999;transform: scale(0.95);}
+      #menubar_logo img {width: 2.6rem;height: 2.6rem;filter: brightness(60%);border-radius: 0.5rem;margin: 0.2rem;transition: all 0.6s;}
+      #menubar_logo:hover img {filter: brightness(100%);border-color: #dbdbdb;}
+      #menubar_items {width: auto;height: 4rem;grid-column: 1; grid-row: 1;margin: 0.5rem;border-radius: 0.5rem;border: 1px solid #666666;background-color: #222222;box-shadow: rgba(0, 0, 0, 0.7) 2px 2px 6px 1px inset;cursor: pointer;}
+      #menubar_items a {width: 2.6rem;height: 2.6rem;text-align: center;color: #dbdbdb;text-decoration: none;filter: brightness(60%);margin: 0.2rem 0.5rem;transition: all 0.6s;}
+      #menubar_items a img {width: 2.6rem;height: 2.6rem;}
+      #menubar_items a:hover {filter: brightness(200%);}
+
+      .headerLandscape {width: 100vw;height: 4rem;position: fixed;top: 0;z-index: 8900;display: grid;grid-template-columns: min-content min-content min-content;grid-template-rows: min-content;}
+      .sortButtonLandscape {height: 3rem;grid-column: 1;grid-row: 1;margin: 0.5rem 0 0.5rem 4.1rem;padding: 0 0.5rem 0 1rem;white-space: pre;}
+      .sortButtonLandscape .sort_arrow {position: relative;top: 0.1rem;}
+      .randomButtonLandscape {height: 3rem;grid-column: 2;grid-row: 1;margin: 0.5rem 0 0 0.5rem;padding: 0 1rem;white-space: pre;}
+      .searchContainerLandscape {width: auto;height: 4rem;grid-column: 3;grid-row: 1;margin: 0.5rem 0 0 0.5rem;}
+      .searchContainerLandscape input {width: auto;height: 3.15rem;margin: 0;padding: 0 0.5rem;background-color: #222222;border-radius: 0.5rem;border: 1px solid #444444;box-shadow: rgba(0, 0, 0, 0.7) 2px 2px 6px 1px inset;color: #dbdbdb;cursor: text;}
+
+      .headerPortrait {width: 100vw;height: 4rem;position: fixed;top: 0;z-index: 8900;display: grid;grid-template-columns: auto min-content;grid-template-rows: min-content min-content;}
+      .sortButtonPortrait {width: auto;height: 3rem;grid-column: 1 / span 2;grid-row: 1;margin: 0.5rem 0.5rem 0.5rem 4.1rem;padding: 0 0.5rem 0 1rem;white-space: pre;}
+      .sortButtonPortrait .sort_arrow {position: relative;top: 0.1rem;}
+      .searchContainerPortrait {width: 100%;height: 4rem;grid-column: 1;grid-row: 2;text-align: center;margin: 0;padding: 0;}
+      .searchContainerPortrait input {width: calc(100% - 1rem);height: 3.15rem;margin: 0;padding: 0 0.5rem;background-color: #222222;border-radius: 0.5rem;border: 1px solid #444444;box-shadow: rgba(0, 0, 0, 0.7) 2px 2px 6px 1px inset;color: #dbdbdb;cursor: text;}
+      .randomButtonPortrait {width: auto;height: 3rem;grid-column: 2;grid-row: 2;margin: 0 0.5rem 0 0;padding: 0 1rem;white-space: pre;}
+      #search_container input:focus {background-color: #222222;outline: none;border: 1px solid #666666;}
+      #search_container input::-webkit-search-cancel-button {filter: invert(50%) brightness(150%);cursor: pointer;}
+
+      #sort_overlay {display: none;position: fixed;inset: 0;z-index: 9100;background-color: #000000cc;align-items: center;justify-content: center;padding: 1rem;box-sizing: border-box;}
+      #sort_overlay_content {width: min(90vw, 40rem);max-height: 80vh;padding: 1rem;background-color: #111111;border: 1px solid #444444;border-radius: 0.5rem;box-shadow: rgba(0, 0, 0, 0.8) 0 0 2rem;display: flex;flex-wrap: wrap;justify-content: center;gap: 0.5rem;overflow-y: auto;}
+      #sort_overlay_title {width: 100%;text-align: center;font-size: 1.5rem;margin-bottom: 0.5rem;color: #dbdbdb;}
+      .sort_option {width: 15rem;min-height: 3rem;}
+
+      #main {width: auto;height: auto;background-color: #00000000;z-index: 100;}
+      .outputLandscape {margin: 4.25rem 0.5rem 1rem 0.5rem;z-index: 100;}
+      .outputPortrait {margin: 7.75rem 0.5rem 1rem 0.5rem;z-index: 100;}
+
+      .group_button {display: none;}
+      .group_button.aktiv {display: block;}
+      @media (orientation: portrait) {#group_single_Zufall .cardContainer {grid-template-columns: 70vw;grid-template-rows: 100%;justify-content: center;} #group_single_Zufall .cardContainer .movieCard {margin: 15vw auto;}}
+      
+      
+      .cardContainer {display: grid;grid-template-columns: repeat(auto-fill, minmax(8rem, 1fr));gap: 0.5em;}
+      .movieCard {color: #ffffff;width: auto;height: auto;display: grid;grid-template-columns: auto auto;grid-template-rows: auto;background-color: #111111;border-radius: 0.5rem;border: 1px solid #444444;position: relative;top: 0;margin: 0;cursor: pointer;transition: top 0.6s;}
+      .movieCard:hover {border-color: #dddddd;top: -0.5rem;}
+      .moviePoster {grid-column: 1 / span 2;grid-row: 1;width: 100%;height: auto;aspect-ratio: 2/3;display: flex;justify-content: center;align-items: center;border-top-left-radius: 0.5rem;border-top-right-radius: 0.5rem;}
+      .moviePoster img {width: 100%;height: auto;object-fit: contain;border-top-left-radius: 0.5rem;border-top-right-radius: 0.5rem;}
+      .movieNumber {grid-column: 1;grid-row: 2;font-size: 0.7rem;margin: 0.5rem;line-height: 1rem;white-space: nowrap;display: flex;align-items: center;justify-content: center;}
+      .movieNumber svg {position: relative;left: -0.25rem;width: 0.7rem;height: 0.7rem;}
+      .movieYear {grid-column: 2;grid-row: 2;font-size: 0.7rem;margin: 0.5rem;line-height: 1rem;white-space: nowrap;display: flex;align-items: center;justify-content: center;}
+      .movieYear svg {position: relative;left: -0.25rem;width: 0.7rem;height: 0.7rem;}
+      .movieOverlay {grid-column: 1 / span 2;grid-row: 1 / span 3;z-index: 1000;border-radius: 0.5rem;background: linear-gradient(50deg, #00000000, #00000000, #00000066, #00000000, #00000000, #00000000, #00000099, #00000000);transition: all 0.8s;}
+      .movieOverlay:hover {opacity: 0;}
+
+
+      .overlayBase {width: 100vw;height: 100vh;background-color: #000000cc;position: fixed;z-index: 9099;inset: 0;}
+
+      .overlayWindowLandscape {width: calc(100vw - 5vh);height: calc(100vh - 5vh);position: fixed;z-index: 9100;inset: 0;background-color: #00000099;overflow: hidden;border-radius: 0.5rem;border: 1px solid #444444;padding: 0;margin: auto;display: grid;grid-template-columns: auto auto;grid-template-rows: auto;}
+      .overlayImageLandscape {grid-column: 1;grid-row: 1;height: calc(100vh - 5vh);}
+      .overlayImageLandscape img {width: auto;height: calc(100% - 2rem);border-radius: 0.5rem;margin: 1rem;}
+      .overlayContainerLandscape {grid-column: 2;grid-row: 1;background: none;}
+      .overlayInfo1Landscape {width: 100%;height: 100%;grid-column: 2;grid-row: 1;background-color: #00000000;display: grid;grid-template-columns: min-content min-content min-content min-content auto min-content min-content min-content;grid-template-rows: 4rem auto min-content;font-size: 1rem;color: #dbdbdb;place-items: center;}
+      .overlayFSKLandscape {width: 3rem;height: 3rem;grid-column: 1;grid-row: 1;margin: 1rem 0 0 0;} .overlayFSKLandscape img {width: 100%;height: 100%;}
+      .overlayNumberLandscape {height: 3rem;grid-column: 2;grid-row: 1;padding: 0 1rem;margin: 1rem 0 0 1rem;white-space: nowrap;}
+      .overlayNumberLandscape svg {position: relative;left: -0.5rem}
+      .overlayYearLandscape {height: 3rem;grid-column: 3;grid-row: 1;padding: 0 1rem;margin: 1rem 0 0 1rem;white-space: nowrap;}
+      .overlayYearLandscape svg {position: relative;left: -0.5rem}
+      .overlaySeasonsLandscape {height: 3rem;grid-column: 4;grid-row: 1;padding: 0 1rem;margin: 1rem 0 0 1rem;white-space: nowrap;}
+      .overlaySeasonsLandscape svg {position: relative;left: -0.5rem}
+      .spacer1Landscape {grid-column: 5;grid-row: 1;}
+      .overlayDownloadImageLandscape {height: 3rem;grid-column: 6;grid-row: 1;padding: 0 1rem;margin: 1rem 1rem 0 0;white-space: nowrap;}
+      .overlayDownloadImageLandscape svg {position: relative;left: -0.5rem}
+      .overlayDownloadNFOLandscape {height: 3rem;grid-column: 7;grid-row: 1;padding: 0 1rem;margin: 1rem 1rem 0 0;white-space: nowrap;}
+      .overlayDownloadNFOLandscape svg {position: relative;left: -0.5rem}
+      .exitButtonLandscape {width: 3rem;height: 3rem;grid-column: 8;grid-row: 1;padding: 0;margin: 1rem 1rem 0 0;white-space: nowrap;}
+      .overlayTitleLandscape {grid-column: 1 / span 8;grid-row: 2;padding: 0.5rem 1rem;font-size: 4rem;font-style: oblique;font-weight: bolder;text-align: center;line-height: normal;}
+      .overlayPlotLandscape {grid-column: 1 / span 8;grid-row: 3;padding: 1rem;margin: 1rem 1rem 1rem 0;text-align: justify;}
+
+      @media (orientation: landscape) and (max-height: 500px) {
+        .overlayImageLandscape img {width: auto;height: calc(100% - 1rem);border-radius: 0.5rem;margin: 0.5rem;}
+        .overlayInfo1Landscape {grid-template-rows: 3rem auto min-content;font-size: 0.6rem;}
+        .overlayFSKLandscape {width: 2rem;height: 2rem;margin: 0;} .overlayFSKLandscape img {width: 100%;height: 100%;}
+        .overlayNumberLandscape {height: 2rem;padding: 0 0.25rem;margin: 0 0 0 0.5rem;}
+        .overlayNumberLandscape svg {width: 1rem;height: 1rem;position: relative;left: -0.1rem}
+        .overlayYearLandscape {height: 2rem;padding: 0 0.25rem;margin: 0 0 0 0.5rem;}
+        .overlayYearLandscape svg {width: 1rem;height: 1rem;position: relative;left: -0.1rem}
+        .overlaySeasonsLandscape {height: 2rem;padding: 0 0.25rem;margin: 0 0 0 0.5rem;}
+        .overlaySeasonsLandscape svg {width: 1rem;height: 1rem;position: relative;left: -0.1rem}
+        .overlayDownloadImageLandscape {height: 2rem;padding: 0 0.25rem;margin: 0 0.5rem 0 0;}
+        .overlayDownloadImageLandscape svg {width: 1rem;height: 1rem;position: relative;left: -0.1rem}
+        .overlayDownloadNFOLandscape {height: 2rem;padding: 0 0.25rem;margin: 0 0.5rem 0 0;}
+        .overlayDownloadNFOLandscape svg {width: 1rem;height: 1rem;position: relative;left: -0.1rem}
+        .exitButtonLandscape {width: 2rem;height: 2rem;margin: 0 0.5rem 0 0;}
+        .overlayTitleLandscape {font-size: clamp(1.5rem, 4vh, 2rem);padding: 0.2rem;}
+        .overlayPlotLandscape {font-size: 0.7rem;line-height: 1rem;margin: 0 0.5rem 0.5rem 0;padding: 0.5rem;}
+      }
+      
+      .overlayWindowPortrait {width: 100vw;height: 100vh;position: fixed;inset: 0;z-index: 9100;background-color: #000000cc;overflow: hidden;padding: 0;margin: 0;display: grid;grid-template-columns: auto;grid-template-rows: auto;}
+      .overlayImagePortrait {grid-column: 1;grid-row: 1;width: 100vw;}
+      .overlayImagePortrait img {width: 100%;height: auto;}
+      .overlayContainerPortrait {width: 100vw;height: 100vh;grid-column: 1;grid-row: 1;background: linear-gradient(180deg, #000000cc, #000000cc, #000000ff, #000000ff, #000000ff);display: grid;grid-template-columns: auto;grid-template-rows: min-content auto min-content;place-items: center;}
+      .overlayInfo1Portrait {width: 100vw;height: min-content;grid-column: 1;grid-row: 1;background-color: #00000000;display: grid;grid-template-columns: min-content min-content auto min-content;grid-template-rows: 4rem auto min-content;place-items: center;font-size: 1rem;color: #dbdbdb;}
+      .overlayDownloadImagePortrait {height: 3rem;grid-column: 1;grid-row: 1;padding: 0 1rem;margin: 0 0 0 0.5rem;white-space: nowrap;}
+      .overlayDownloadImagePortrait svg {position: relative;left: -0.5rem}
+      .overlayDownloadNFOPortrait {height: 3rem;grid-column: 2;grid-row: 1;padding: 0 1rem;margin: 0 0 0 0.5rem;white-space: nowrap;}
+      .overlayDownloadNFOPortrait svg {position: relative;left: -0.5rem}
+      .spacer1Portrait {grid-column: 3;grid-row: 1;}
+      .exitButtonPortrait {width: 3rem;height: 3rem;margin: 0 0.5rem 0 0;grid-column: 4;grid-row: 1;white-space: nowrap;}
+      .overlayTitlePortrait {grid-column: 1;grid-row: 2;padding: 0.5rem 1rem;font-size: 3rem;font-style: oblique;font-weight: bolder;text-align: center;line-height: normal;word-break: break-word;hyphens: auto;}
+      .overlayInfo2Portrait {width: 100vw;height: min-content;grid-column: 1;grid-row: 3;background-color: #00000000;display: grid;grid-template-columns: min-content min-content min-content auto min-content;grid-template-rows: 4rem min-content;place-items: center;font-size: 1rem;color: #dbdbdb;}
+      .overlayNumberPortrait {height: 3rem;grid-column: 1;grid-row: 1;margin: 0 0 0 0.5rem;padding: 0 0.5rem;white-space: nowrap;}
+      .overlayNumberPortrait svg {position: relative;left: -0.1rem}
+      .overlayYearPortrait {height: 3rem;grid-column: 2;grid-row: 1;margin: 0 0 0 0.5rem;padding: 0 0.5rem;white-space: nowrap;}
+      .overlayYearPortrait svg {position: relative;left: -0.1rem}
+      .overlaySeasonsPortrait {height: 3rem;grid-column: 3;grid-row: 1;margin: 0 0 0 0.5rem;padding: 0 0.5rem;white-space: nowrap;}
+      .overlaySeasonsPortrait svg {position: relative;left: -0.1rem}
+      .spacer2Portrait {grid-column: 4;grid-row: 1;}
+      .overlayFSKPortrait {width: 3rem;height: 3rem;grid-column: 5;grid-row: 1;margin: 0.5rem;}
+      .overlayFSKPortrait img {width: 100%;height: 100%;}
+      .overlayPlotPortrait {grid-column: 1 / span 5;grid-row: 2;margin: 0 0.5rem 0.5rem 0.5rem;padding: 0.5rem;text-align: justify;line-height: 1rem;font-size: 0.7rem;font-family: Verdana, Geneva, Tahoma, sans-serif;}
+    </style>
+  </head>
+  <body onload="init_menubar();windowModeCheck();load_moviebase();">
+    <div id="menubar"></div><div id="header"></div>
+    <div id="main"><div id="output"></div></div>
+  </body>
+</html>
+<script>
+  let windowMode = '';window.addEventListener('resize', () => {windowModeCheck();windowModeReorder();}); function windowModeCheck() {if (window.innerWidth >= window.innerHeight) {windowMode = 'landscape';} else {windowMode = 'portrait';}}
+  function init_menubar() {
+    const menubar = document.getElementById('menubar');const menubar_div = document.createElement('div');menubar_div.id = 'menubar_div';const menubar_logo = document.createElement('div');menubar_logo.id = 'menubar_logo';menubar_logo.style = 'display: flex;';menubar_logo.onclick = () => {toggle_menubar(menubar_logo);};const menubar_logo_img = document.createElement('img');menubar_logo_img.src = '../homepage/assets/mb_icon0.svg';menubar_logo.appendChild(menubar_logo_img);menubar_div.appendChild(menubar_logo);const menubar_items = document.createElement('div');menubar_items.id = 'menubar_items';menubar_items.style = 'display: none;';
+    const menubarClose = document.createElement('a');menubarClose.onclick = () => {toggle_menubar(menubarClose);};const menubarCloseImg = document.createElement('img');menubarCloseImg.src = '../homepage/assets/icon_close_00.png';menubarClose.appendChild(menubarCloseImg);menubar_items.appendChild(menubarClose);
+    const menubar_home = document.createElement('a');menubar_home.id = 'menubar_home';menubar_home.href = '../homepage/index.html';const menubar_home_img = document.createElement('img');menubar_home_img.src = '../homepage/assets/mb_icon0.svg';menubar_home.appendChild(menubar_home_img);menubar_items.appendChild(menubar_home);
+    const menubarMovieBase = document.createElement('a');menubarMovieBase.href = '../moviebase/index.html';const menubarMovieBaseImg = document.createElement('img');menubarMovieBaseImg.src = '../moviebase/icons/icon0.png';menubarMovieBase.appendChild(menubarMovieBaseImg);menubar_items.appendChild(menubarMovieBase);
+    const menubarSeriesBase = document.createElement('a');menubarSeriesBase.href = 'index.html';const menubarSeriesBaseImg = document.createElement('img');menubarSeriesBaseImg.src = 'icons/icon0.png';menubarSeriesBase.appendChild(menubarSeriesBaseImg);menubar_items.appendChild(menubarSeriesBase);
+    const menubar_games = document.createElement('a');menubar_games.id = 'menubar_games';menubar_games.href = '../homepage/index.html';const menubar_games_img = document.createElement('img');menubar_games_img.src = '../homepage/assets/icon_controller_00.png';menubar_games.appendChild(menubar_games_img);
+    const menubarBooklets = document.createElement('a');menubarBooklets.href = '../homepage/index.html';const menubarBookletsImg = document.createElement('img');menubarBookletsImg.src = '../homepage/assets/icon_booklets_00.png';menubarBooklets.appendChild(menubarBookletsImg);menubar_items.appendChild(menubarBooklets);
+    const menubarSongBase = document.createElement('a');menubarSongBase.href = '../homepage/index.html';const menubarSongBaseImg = document.createElement('img');menubarSongBaseImg.src = '../homepage/assets/icon_books_00.png';menubarSongBase.appendChild(menubarSongBaseImg);menubar_items.appendChild(menubarSongBase);
+    const menubar_tools = document.createElement('a');menubar_tools.id = 'menubar_tools';menubar_tools.href = '../homepage/index.html';const menubar_tools_img = document.createElement('img');menubar_tools_img.src = '../homepage/assets/icon_tools_00.png';menubar_tools.appendChild(menubar_tools_img);
+    const menubar_cooking = document.createElement('a');menubar_cooking.id = 'menubar_cooking';menubar_cooking.href = '../homepage/index.html';const menubar_cooking_img = document.createElement('img');menubar_cooking_img.src = '../cookingcorner/icons/icon0.png';menubar_cooking.appendChild(menubar_cooking_img);
+    if (windowMode === 'landscape') {menubar_items.appendChild(menubar_games);menubar_items.appendChild(menubar_tools);menubar_items.appendChild(menubar_cooking);}
+    menubar_div.appendChild(menubar_items);menubar.appendChild(menubar_div);document.addEventListener('click', (event) => {const menubar = document.getElementById('menubar');const menubar_logo = document.getElementById('menubar_logo');const menubar_items = document.getElementById('menubar_items');if (!menubar.contains(event.target)) {menubar_logo.style.display = 'flex';menubar_items.style.display = 'none';}});
+  }
+  function toggle_menubar(obj) {const menubar_logo = document.getElementById('menubar_logo');const menubar_items = document.getElementById('menubar_items');let visible = '';if (menubar_logo.style.display === 'flex' && obj.id == menubar_logo.id) {menubar_logo.style.display = 'none';menubar_items.style.display = 'flex';} else {menubar_logo.style.display = 'flex';menubar_items.style.display = 'none';}}
+  
+  function windowModeReorder() {
+    const menubar = document.getElementById('menubar');if (document.querySelector("#menubar_div")) {menubar.removeChild(document.querySelector("#menubar_div"));init_menubar();}
+    if (windowMode === 'landscape') {
+      if (document.querySelector('.headerPortrait')) {document.querySelector('.headerPortrait').className = 'headerLandscape';}
+      if (document.querySelector('.sortButtonPortrait')) {document.querySelector('.sortButtonPortrait').className = 'sortButtonLandscape mb_button';}
+      if (document.querySelector('.randomButtonPortrait')) {document.querySelector('.randomButtonPortrait').className = 'randomButtonLandscape mb_button';}
+      if (document.querySelector('.searchContainerPortrait')) {document.querySelector('.searchContainerPortrait').className = 'searchContainerLandscape';}
+      if (document.querySelector('.outputPortrait')) {document.querySelector('.outputPortrait').className = 'outputLandscape';}
+    }
+    else {
+      if (document.querySelector('.headerLandscape')) {document.querySelector('.headerLandscape').className = 'headerPortrait';}
+      if (document.querySelector('.sortButtonLandscape')) {document.querySelector('.sortButtonLandscape').className = 'sortButtonPortrait mb_button';}
+      if (document.querySelector('.randomButtonLandscape')) {document.querySelector('.randomButtonLandscape').className = 'randomButtonPortrait mb_button';}
+      if (document.querySelector('.searchContainerLandscape')) {document.querySelector('.searchContainerLandscape').className = 'searchContainerPortrait';}
+      if (document.querySelector('.outputLandscape')) {document.querySelector('.outputLandscape').className = 'outputPortrait';}
+    }
+  }
+  
+  const header = document.getElementById('header');
+
+  let current_data = [];let current_group = 'Name';let current_sort_direction = 'asc';
+
+  async function load_moviebase() {
+    try {const response = await fetch('series.json');if (!response.ok) throw new Error('series.json konnte nicht geladen werden.');current_data = await response.json();load_navigation();load_table_data(current_data);}
+    catch(err) {document.getElementById('output').innerHTML = '<h3>Fehler</h3><p>' + err.message + '</p>';console.error(err);}
+  }
+
+  function load_navigation() {
+    if (windowMode === 'landscape') {header.className = 'headerLandscape';}
+    else {header.className = 'headerPortrait';}
+
+    const sortButton = document.createElement('div');
+    sortButton.id = 'sortButton';
+    if (windowMode === 'landscape') {sortButton.className = 'sortButtonLandscape mb_button';}
+    else {sortButton.className = 'sortButtonPortrait mb_button';}
+    sortButton.onclick = () => {sort_overlay.style.display = 'flex';};
+
+    const sortButton_text = document.createElement('div');
+    sortButton_text.id = 'sortButton_text';
+    sortButton_text.className = 'sortButton_text';
+    const sort_arrow = document.createElement('div');
+    sort_arrow.className = 'sort_arrow';
+    sort_arrow.innerHTML = '<svg height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor"><path d="M465-363.5q-7-2.5-13-8.5L268-556q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-372q-6 6-13 8.5t-15 2.5q-8 0-15-2.5Z"/></svg>';
+
+    sortButton.appendChild(sortButton_text);
+    sortButton.appendChild(sort_arrow);
+    
+    header.appendChild(sortButton);
+
+    const randomButton = document.createElement('div');
+    randomButton.id = 'randomButton';
+    if (windowMode === 'landscape') {randomButton.className = 'randomButtonLandscape mb_button';}
+    else {randomButton.className = 'randomButtonPortrait mb_button';}
+    randomButton.textContent = 'Zufall';
+    randomButton.onclick = () => {
+      if (current_data.length === 0) return;
+      const random_index = Math.floor(Math.random() * current_data.length);
+      const random_movie = current_data[random_index];
+      load_table_data([random_movie], 'Zufall');
+      randomButton.blur();
+    };
+
+    const sort_overlay = document.createElement('div');
+    sort_overlay.id = 'sort_overlay';
+    const sort_overlay_content = document.createElement('div');
+    sort_overlay_content.id = 'sort_overlay_content';
+    const sort_overlay_title = document.createElement('div');
+    sort_overlay_title.id = 'sort_overlay_title';
+    sort_overlay_title.textContent = 'Sortieren Nach';
+    sort_overlay_content.appendChild(sort_overlay_title);
+    sort_overlay.appendChild(sort_overlay_content);
+
+    
+    const sort_options = ['Nummer','Name','0-9','A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z'];
+    sort_options.forEach(z => {
+      const option_button = document.createElement('div');
+      option_button.className = 'sort_option mb_button';
+      option_button.textContent = z;
+      option_button.onclick = () => {sort_group(z);sort_overlay.style.display = 'none';};
+      sort_overlay_content.appendChild(option_button);
+    });
+
+    sort_overlay.onclick = (event) => {if (event.target === sort_overlay) {sort_overlay.style.display = 'none';}};
+
+    header.appendChild(randomButton);
+
+    const output = document.querySelector('#output');
+    
+    document.body.appendChild(sort_overlay);
+
+    set_group_active();
+
+    const search_container = document.createElement('div');
+    search_container.id = 'search_container';
+    if (windowMode === 'landscape') {search_container.className = 'searchContainerLandscape';output.className = 'outputLandscape';}
+    else {search_container.className = 'searchContainerPortrait';output.className = 'outputPortrait';}
+    const search_input = document.createElement('input');
+    search_input.type = 'search';
+    search_input.id = 'search_input';
+    search_input.placeholder = 'Titel-Suche...';
+    search_input.addEventListener('input', () => {search_in_table_data(search_input.value);});
+    search_container.appendChild(search_input);
+    header.appendChild(search_container);
+  }
+  
+  function sort_group(z) {
+    const same_group = current_group === z;
+    if (same_group) {current_data.reverse();current_sort_direction = current_sort_direction === 'asc' ? 'desc' : 'asc';}
+    else {
+      current_group = z;
+      current_sort_direction = 'asc';
+      current_data.sort((a, b) => {
+        if (z === 'Nummer') {
+          const numA = parseInt(a[Object.keys(a)[0]]) || 0;
+          const numB = parseInt(b[Object.keys(b)[0]]) || 0;
+          return numA - numB;
+        }
+        else {
+          const nameA = String(a[Object.keys(a)[1]] ?? '');
+          const nameB = String(b[Object.keys(b)[1]] ?? '');
+          return nameA.localeCompare(nameB, 'de');
+        }
+      });
+    }
+    load_table_data(current_data, z);
+    set_group_active();
+  }
+
+  function load_table_data(data, group_extra = null) {
+    const container = document.getElementById('output');container.innerHTML = '';
+    const groups = {
+      'Nummer': [], 'Name': [], 'Zufall': [], '0-9': [],
+      ...Object.fromEntries('ABCDEFGHIJKLMNOPQRSTUVWXYZ'.split('').map(c => [c, []]))
+    };
+    for (const entry of data) {
+      const name = entry.title ?? '';
+      const letter_1 = name.charAt(0).toUpperCase();
+      groups['Name'].push(entry);
+      groups['Zufall'].push(entry);
+      groups['Nummer'].push(entry);
+      if (/[0-9]/.test(letter_1)) {groups['0-9'].push(entry);}
+      else if (groups[letter_1]) {groups[letter_1].push(entry);}
+    }
+
+    for (const group_single in groups) {
+      const groupDiv = document.createElement('div');
+      groupDiv.id = 'group_single_' + group_single;
+      groupDiv.className = 'group_button';
+      if (group_single === (group_extra || 'Name')) {groupDiv.classList.add('aktiv');}
+      let data = groups[group_single];
+      if (group_single === 'Nummer') {
+        data.sort((a, b) => {
+          const numA = parseInt(a.id) || 0;
+          const numB = parseInt(b.id) || 0;
+          return current_sort_direction === 'asc' ? numA - numB : numB - numA;
+        });
+      }
+      else if (group_single !== 'Zufall') {
+        data.sort((a, b) => {
+          const nameA = a.title ?? '';
+          const nameB = b.title ?? '';
+          return current_sort_direction === 'asc' ? nameA.localeCompare(nameB, 'de') : nameB.localeCompare(nameA, 'de');
+        });
+      }
+      if (data.length > 0) {const table = generate_table_data(data);groupDiv.appendChild(table);}
+      else {groupDiv.innerHTML = '<p>Keine Einträge gefunden...</p>';}
+      container.appendChild(groupDiv);
+    }
+  }
+
+  function set_group_active() {
+    const sortButton_text = document.getElementById('sortButton_text');
+    const sortButton_arrow = document.querySelector('.sort_arrow');
+    const arrow_down = '<svg height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor"><path d="M465-363.5q-7-2.5-13-8.5L268-556q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-372q-6 6-13 8.5t-15 2.5q-8 0-15-2.5Z"/></svg>';
+    const arrow_up = '<svg height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor" style="transform: rotate(180deg);"><path d="M465-363.5q-7-2.5-13-8.5L268-556q-11-11-11-28t11-28q11-11 28-11t28 11l156 156 156-156q11-11 28-11t28 11q11 11 11 28t-11 28L508-372q-6 6-13 8.5t-15 2.5q-8 0-15-2.5Z"/></svg>';
+    if (!sortButton_text || !sortButton_arrow) return;
+    sortButton_text.textContent = 'Sortieren Nach:\u00A0\u00A0\u00A0' + current_group;
+    if (current_group === 'Zufall') {sortButton_arrow.innerHTML = '';}
+    else {sortButton_arrow.innerHTML = current_sort_direction === 'asc' ? arrow_down : arrow_up;}
+  }
+
+  function generate_table_data(data) {
+    const cardContainer = document.createElement('div');
+    cardContainer.className = 'cardContainer';
+    data.forEach(row => {
+      const card = document.createElement('div');
+      card.className = 'movieCard';
+      card.dataset.title = (row.title ?? '').toLowerCase();
+
+      const moviePoster = document.createElement('div');
+      moviePoster.className = 'moviePoster';
+      moviePoster.innerHTML = '<img src="' + row.poster + '" loading="lazy">';
+      
+      const movieNumber = document.createElement('div');
+      movieNumber.className = 'movieNumber';
+      movieNumber.innerHTML = '<svg height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor"><path d="m240-160 40-160H120l20-80h160l40-160H180l20-80h160l40-160h80l-40 160h160l40-160h80l-40 160h160l-20 80H660l-40 160h160l-20 80H600l-40 160h-80l40-160H360l-40 160h-80Zm140-240h160l40-160H420l-40 160Z"/></svg>' + row.id ?? "";
+      
+      const movieYear = document.createElement('div');
+      movieYear.className = 'movieYear';
+      movieYear.innerHTML = '<svg height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor"><path d="M200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-80h80v80h320v-80h80v80h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Zm0-480h560v-80H200v80Zm0 0v-80 80Z"/></svg>' + row.year ?? "";
+      
+      const overlay = document.createElement('div');
+      overlay.className = 'movieOverlay';
+      overlay.onclick = () => createOverlay(row);
+      
+      card.appendChild(moviePoster);
+      card.appendChild(movieNumber);
+      card.appendChild(movieYear);
+      card.appendChild(overlay);
+      
+      cardContainer.appendChild(card);
+    });
+    return cardContainer;
+  }
+
+  function search_in_table_data(search_index) {
+    const group_div = document.getElementById('group_single_' + current_group);
+    if (!group_div) return;
+    const cards = group_div.querySelectorAll('.movieCard');
+    const search = search_index.trim().toLowerCase();
+    cards.forEach(card => {
+      const title = card.dataset.title;
+      card.style.display = (search === '' || title.includes(search)) ? '' : 'none';
+    });
+  }
+
+  function createOverlay(movie) {
+    const overlayBase = document.createElement('div');
+    const overlayWindow = document.createElement('div');
+    const overlayImage = document.createElement('div');
+    const overlayContainer = document.createElement('div');
+    const overlayInfo1 = document.createElement('div');
+    const overlayInfo2 = document.createElement('div');
+    const overlayFSK = document.createElement('div');
+    const overlayNumber = document.createElement('div');
+    const overlayYear = document.createElement('div');
+    const overlaySeasons = document.createElement('div');
+    const overlayDownloadImage = document.createElement('div');
+    const overlayDownloadNFO = document.createElement('div');
+    const exitButton = document.createElement('div');
+    const overlayTitle = document.createElement('div');
+    const overlayPlot = document.createElement('div');
+    
+    overlayBase.className = 'overlayBase';
+    if (windowMode === 'landscape') {
+      overlayWindow.className = 'overlayWindowLandscape';
+        overlayImage.className = 'overlayImageLandscape';
+        overlayImage.innerHTML = '<img src="' + movie.poster + '" loading="lazy">';
+        overlayWindow.appendChild(overlayImage);
+        overlayContainer.className = 'overlayContainerLandscape';
+          overlayInfo1.className = 'overlayInfo1Landscape';
+            overlayFSK.className = 'overlayFSKLandscape';
+            overlayFSK.innerHTML = '<img src="icons/' + movie.mpaa + '.png" loading="lazy">';
+            overlayInfo1.appendChild(overlayFSK);
+            overlayNumber.className = 'overlayNumberLandscape mb_text';
+            overlayNumber.innerHTML = '<svg height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor"><path d="m240-160 40-160H120l20-80h160l40-160H180l20-80h160l40-160h80l-40 160h160l40-160h80l-40 160h160l-20 80H660l-40 160h160l-20 80H600l-40 160h-80l40-160H360l-40 160h-80Zm140-240h160l40-160H420l-40 160Z"/></svg>' + movie.id;
+            overlayInfo1.appendChild(overlayNumber);
+            overlayYear.className = 'overlayYearLandscape mb_text';
+            overlayYear.innerHTML = '<svg height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor"><path d="M200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-80h80v80h320v-80h80v80h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Zm0-480h560v-80H200v80Zm0 0v-80 80Z"/></svg>' + movie.year;
+            overlayInfo1.appendChild(overlayYear);
+            overlaySeasons.className = 'overlaySeasonsLandscape mb_text';
+            if (movie.seasons == 1) {overlaySeasons.innerHTML = movie.seasons + ' Staffel';}
+            else {overlaySeasons.innerHTML = movie.seasons + ' Staffeln';}
+            overlayInfo1.appendChild(overlaySeasons);
+            const spacer1 = document.createElement('div');
+            spacer1.className = 'spacer1Landscape';
+            overlayInfo1.appendChild(spacer1);
+            overlayDownloadImage.className = 'overlayDownloadImageLandscape mb_button';
+            overlayDownloadImage.innerHTML = '<svg height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor"><path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg> Cover';
+            overlayDownloadImage.onclick = () => downloadImage(movie);
+            overlayInfo1.appendChild(overlayDownloadImage);
+            overlayDownloadNFO.className = 'overlayDownloadNFOLandscape mb_button';
+            overlayDownloadNFO.innerHTML = '<svg height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor"><path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg> Info-File';
+            overlayDownloadNFO.onclick = () => downloadNFO(movie);
+            overlayInfo1.appendChild(overlayDownloadNFO);
+            exitButton.className = 'exitButtonLandscape mb_button';
+            exitButton.innerHTML = '<svg height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>';
+            exitButton.onclick = () => removeOverlay();
+            overlayInfo1.appendChild(exitButton);
+            overlayTitle.className = 'overlayTitleLandscape';
+            overlayTitle.innerHTML = movie.title;
+            overlayInfo1.appendChild(overlayTitle);
+            overlayPlot.className = 'overlayPlotLandscape mb_text';
+            overlayPlot.innerHTML = movie.plot;
+            overlayInfo1.appendChild(overlayPlot);
+          overlayContainer.appendChild(overlayInfo1);
+        overlayWindow.appendChild(overlayContainer);
+      overlayBase.appendChild(overlayWindow);
+    }
+
+    else {
+      overlayWindow.className = 'overlayWindowPortrait';
+        overlayImage.className = 'overlayImagePortrait';
+        overlayImage.innerHTML = '<img src="' + movie.poster + '" loading="lazy">';
+        overlayWindow.appendChild(overlayImage);
+        overlayContainer.className = 'overlayContainerPortrait';
+          overlayInfo1.className = 'overlayInfo1Portrait';
+            overlayDownloadImage.className = 'overlayDownloadImagePortrait mb_button';
+            overlayDownloadImage.innerHTML = '<svg height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor"><path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg> Cover';
+            overlayDownloadImage.onclick = () => downloadImage(movie);
+            overlayInfo1.appendChild(overlayDownloadImage);
+            overlayDownloadNFO.className = 'overlayDownloadNFOPortrait mb_button';
+            overlayDownloadNFO.innerHTML = '<svg height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor"><path d="M480-320 280-520l56-58 104 104v-326h80v326l104-104 56 58-200 200ZM240-160q-33 0-56.5-23.5T160-240v-120h80v120h480v-120h80v120q0 33-23.5 56.5T720-160H240Z"/></svg> Info-File';
+            overlayDownloadNFO.onclick = () => downloadNFO(movie);
+            overlayInfo1.appendChild(overlayDownloadNFO);
+            const spacer1 = document.createElement('div');
+            spacer1.className = 'spacer1Portrait';
+            overlayInfo1.appendChild(spacer1);
+            exitButton.className = 'exitButtonPortrait mb_button';
+            exitButton.innerHTML = '<svg height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor"><path d="m256-200-56-56 224-224-224-224 56-56 224 224 224-224 56 56-224 224 224 224-56 56-224-224-224 224Z"/></svg>';
+            exitButton.onclick = () => removeOverlay();
+            overlayInfo1.appendChild(exitButton);
+          overlayContainer.appendChild(overlayInfo1);
+          
+          overlayTitle.className = 'overlayTitlePortrait';
+          overlayTitle.innerHTML = movie.title;
+          overlayContainer.appendChild(overlayTitle);
+          
+          overlayInfo2.className = 'overlayInfo2Portrait';
+            overlayNumber.className = 'overlayNumberPortrait mb_text';
+            overlayNumber.innerHTML = '<svg height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor"><path d="m240-160 40-160H120l20-80h160l40-160H180l20-80h160l40-160h80l-40 160h160l40-160h80l-40 160h160l-20 80H660l-40 160h160l-20 80H600l-40 160h-80l40-160H360l-40 160h-80Zm140-240h160l40-160H420l-40 160Z"/></svg>' + movie.id;
+            overlayInfo2.appendChild(overlayNumber);
+            overlayYear.className = 'overlayYearPortrait mb_text';
+            overlayYear.innerHTML = '<svg height="24px" viewBox="0 -960 960 960" width="24px" fill="currentColor"><path d="M200-80q-33 0-56.5-23.5T120-160v-560q0-33 23.5-56.5T200-800h40v-80h80v80h320v-80h80v80h40q33 0 56.5 23.5T840-720v560q0 33-23.5 56.5T760-80H200Zm0-80h560v-400H200v400Zm0-480h560v-80H200v80Zm0 0v-80 80Z"/></svg>' + movie.year;
+            overlayInfo2.appendChild(overlayYear);
+            overlaySeasons.className = 'overlaySeasonsPortrait mb_text';
+            if (movie.seasons == 1) {overlaySeasons.innerHTML = movie.seasons + ' Staffel';}
+            else {overlaySeasons.innerHTML = movie.seasons + ' Staffeln';}
+            overlayInfo2.appendChild(overlaySeasons);
+            const spacer2 = document.createElement('div');
+            spacer2.className = 'spacer2Portrait';
+            overlayInfo2.appendChild(spacer2);
+            overlayFSK.className = 'overlayFSKPortrait';
+            overlayFSK.innerHTML = '<img src="icons/' + movie.mpaa + '.png" loading="lazy">';
+            overlayInfo2.appendChild(overlayFSK);
+            overlayPlot.className = 'overlayPlotPortrait mb_text';
+            overlayPlot.innerHTML = movie.plot;
+            overlayInfo2.appendChild(overlayPlot);
+          overlayContainer.appendChild(overlayInfo2);
+
+        overlayWindow.appendChild(overlayContainer);
+      overlayBase.appendChild(overlayWindow);
+    }
+
+    document.body.appendChild(overlayBase);
+    document.body.style = 'overflow: hidden;';
+  }
+  function removeOverlay() {document.querySelector('.overlayBase')?.remove();document.querySelector('.overlayWindowLandscape')?.remove();document.querySelector('.overlayWindowPortrait')?.remove();document.body.style = 'overflow: scroll;';}
+
+  function downloadImage(movie) {downloadFile(movie.poster, `${movie.filename}-poster.jpg`);}
+  function downloadNFO(movie) {downloadFile(`Movies/${movie.folder}/${movie.filename}.nfo`, `${movie.filename}.nfo`);}
+  function downloadFile(url, filename) {
+    const link = document.createElement('a');
+    link.href = url;
+    link.download = filename;
+    link.style.display = 'none';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  }
+</script>
