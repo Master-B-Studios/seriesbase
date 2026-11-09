@@ -89,7 +89,7 @@
   </body>
 </html>
 <div style="display: none;">
-  <img id="templateBG" src="index_moviecreator_template.jpg">
+  <img id="templateBG" src="index_seriescreator_template.jpg">
   <div id="loadedContent"></div>
 </div>
 <script>
@@ -104,7 +104,7 @@
   }
 
   async function loadMovieBase() {
-    try {const response = await fetch('movies.json');if (!response.ok) throw new Error('movies.json konnte nicht geladen werden.');currentData = await response.json();loadTableData(currentData);}
+    try {const response = await fetch('series.json');if (!response.ok) throw new Error('movies.json konnte nicht geladen werden.');currentData = await response.json();loadTableData(currentData);}
     catch(err) {document.getElementById('inputPlot').innerHTML = '<h3>Fehler</h3><p>' + err.message + '</p>';console.error(err);}
   }
 
